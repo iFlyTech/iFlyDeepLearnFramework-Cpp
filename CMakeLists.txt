@@ -4,4 +4,5 @@ project(TestDeepLearningFramework VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-include_dir
+include_directories(
+    ${PROJECT_SOURCE_DIR}/includ
