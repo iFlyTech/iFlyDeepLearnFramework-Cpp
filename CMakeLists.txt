@@ -6,4 +6,5 @@ enable_testing()
 
 include_directories(
     ${PROJECT_SOURCE_DIR}/include
-    ${PROJECT_SOURCE_DIR}/inc
+    ${PROJECT_SOURCE_DIR}/include/Activations
+    ${PROJEC
