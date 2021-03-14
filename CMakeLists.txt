@@ -11,4 +11,5 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/include/Layers
     ${PROJECT_SOURCE_DIR}/include/Losses
     ${PROJECT_SOURCE_DIR}/include/Metrics
-    ${PROJEC
+    ${PROJECT_SOURCE_DIR}/include/Module
+    
