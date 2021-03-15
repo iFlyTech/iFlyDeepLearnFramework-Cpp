@@ -14,4 +14,8 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/include/Module
     ${PROJECT_SOURCE_DIR}/include/Sequential
     ${PROJECT_SOURCE_DIR}/include/Trainers
-    ${PROJECT_SOURCE_DIR}
+    ${PROJECT_SOURCE_DIR}/src/Trainers
+)
+
+# source files
+file(GLOB
