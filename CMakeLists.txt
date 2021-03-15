@@ -18,4 +18,4 @@ include_directories(
 )
 
 # source files
-file(GLOB
+file(GLOB SOURCES "src/*/*.cpp" tests/main.c
