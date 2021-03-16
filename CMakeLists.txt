@@ -18,4 +18,7 @@ include_directories(
 )
 
 # source files
-file(GLOB SOURCES "src/*/*.cpp" tests/main.c
+file(GLOB SOURCES "src/*/*.cpp" tests/main.cpp)
+
+if(BUILD_TESTING)
+  add_su
