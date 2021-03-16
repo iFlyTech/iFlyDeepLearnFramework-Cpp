@@ -21,4 +21,7 @@ include_directories(
 file(GLOB SOURCES "src/*/*.cpp" tests/main.cpp)
 
 if(BUILD_TESTING)
-  add_su
+  add_subdirectory(tests/unitTests)
+endif()
+
+add_execut
