@@ -24,4 +24,4 @@ if(BUILD_TESTING)
   add_subdirectory(tests/unitTests)
 endif()
 
-add_execut
+add_executable(TestDeepLearningFramewor
