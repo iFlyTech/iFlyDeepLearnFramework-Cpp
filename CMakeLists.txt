@@ -24,4 +24,4 @@ if(BUILD_TESTING)
   add_subdirectory(tests/unitTests)
 endif()
 
-add_executable(TestDeepLearningFramewor
+add_executable(TestDeepLearningFramework ${SOURCES})
