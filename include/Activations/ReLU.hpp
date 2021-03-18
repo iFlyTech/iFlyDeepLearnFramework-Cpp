@@ -2,4 +2,8 @@
  * ReLU activation class definition
  */
 
-#pragma on
+#pragma once
+
+#include "Module.hpp"
+
+#includ
