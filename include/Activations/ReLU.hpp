@@ -1,2 +1,5 @@
 /**
- * ReLU activation class definiti
+ * ReLU activation class definition
+ */
+
+#pragma on
