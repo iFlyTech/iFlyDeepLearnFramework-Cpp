@@ -13,4 +13,4 @@ namespace Activations {
 /**
  * Activation class: ReLU.
  *
- * 
+ * forward: output = input i
