@@ -9,4 +9,8 @@
 #include <iostream>
 
 namespace DeepLearningFramework {
-namespace Activation
+namespace Activations {
+/**
+ * Activation class: ReLU.
+ *
+ * 
