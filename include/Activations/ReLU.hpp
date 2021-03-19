@@ -14,4 +14,4 @@ namespace Activations {
  * Activation class: ReLU.
  *
  * forward: output = input if input > 0, else 0
- * backward: outp
+ * backward: output = 1*input if forward input was > 0, else
