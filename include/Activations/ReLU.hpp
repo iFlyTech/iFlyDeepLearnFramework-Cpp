@@ -19,4 +19,7 @@ namespace Activations {
 class ReLU : public Module {
 public:
   ReLU();
-  ~ReLU() = de
+  ~ReLU() = default;
+
+  /**
+   * Forward pass of 
