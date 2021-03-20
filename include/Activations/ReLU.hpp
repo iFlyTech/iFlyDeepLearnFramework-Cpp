@@ -16,4 +16,7 @@ namespace Activations {
  * forward: output = input if input > 0, else 0
  * backward: output = 1*input if forward input was > 0, else 0
  */
-class ReLU : public Modul
+class ReLU : public Module {
+public:
+  ReLU();
+  ~ReLU() = de
