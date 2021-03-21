@@ -22,4 +22,6 @@ public:
   ~ReLU() = default;
 
   /**
-   * Forward pass of the ReLU activation function
+   * Forward pass of the ReLU activation function.
+   *
+   * @param[out] out input i
