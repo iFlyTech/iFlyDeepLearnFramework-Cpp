@@ -24,4 +24,5 @@ public:
   /**
    * Forward pass of the ReLU activation function.
    *
-   * @param[out] out input i
+   * @param[out] out input if input > 0, else 0
+   * @param[in] 
