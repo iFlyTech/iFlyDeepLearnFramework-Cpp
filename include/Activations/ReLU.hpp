@@ -22,4 +22,4 @@ public:
   ~ReLU() = default;
 
   /**
-   * Forward pass of 
+   * Forward pass of the ReLU activation function
