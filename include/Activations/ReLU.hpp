@@ -27,4 +27,7 @@ public:
    * @param[out] out input if input > 0, else 0
    * @param[in] x Values on which to apply ReLU
    */
-  void forward(Eigen::MatrixXf &out, const Eigen::MatrixXf &x) override
+  void forward(Eigen::MatrixXf &out, const Eigen::MatrixXf &x) override;
+
+  /**
+   * Backward pass of the R
