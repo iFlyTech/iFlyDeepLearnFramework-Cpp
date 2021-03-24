@@ -30,4 +30,5 @@ public:
   void forward(Eigen::MatrixXf &out, const Eigen::MatrixXf &x) override;
 
   /**
-   * Backward pass of the R
+   * Backward pass of the ReLU activation function.
+   
