@@ -32,4 +32,5 @@ public:
   /**
    * Backward pass of the ReLU activation function.
    *
-   * @param[out] ddout 1*input if 
+   * @param[out] ddout 1*input if forward input was > 0, else 0
+   * @p
