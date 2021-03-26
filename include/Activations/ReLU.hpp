@@ -35,4 +35,6 @@ public:
    * @param[out] ddout 1*input if forward input was > 0, else 0
    * @param[in] dout Values on which to apply backpropagation
    */
-  void backward(Eigen::MatrixXf &ddout, const Eig
+  void backward(Eigen::MatrixXf &ddout, const Eigen::MatrixXf &dout) override;
+
+  /* Pr
