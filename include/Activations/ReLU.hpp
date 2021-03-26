@@ -35,4 +35,4 @@ public:
    * @param[out] ddout 1*input if forward input was > 0, else 0
    * @param[in] dout Values on which to apply backpropagation
    */
-  void backwa
+  void backward(Eigen::MatrixXf &ddout, const Eig
