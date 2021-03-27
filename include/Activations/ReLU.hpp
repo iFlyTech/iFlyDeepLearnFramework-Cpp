@@ -38,4 +38,6 @@ public:
   void backward(Eigen::MatrixXf &ddout, const Eigen::MatrixXf &dout) override;
 
   /* Print description of ReLU activation class */
-  void printDescription() overr
+  void printDescription() override;
+
+  /* Override set lea
