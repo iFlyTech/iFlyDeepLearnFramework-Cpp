@@ -41,4 +41,6 @@ public:
   void printDescription() override;
 
   /* Override set learning rate */
-  void setLR(
+  void setLR(float lr) override {}
+
+  /* Override getParameters
