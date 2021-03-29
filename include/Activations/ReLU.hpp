@@ -49,4 +49,4 @@ public:
 private:
   std::string mType = "Activation";
   std::string mName = "ReLU";
-  
+  Eigen::MatrixXf mForwardInp
