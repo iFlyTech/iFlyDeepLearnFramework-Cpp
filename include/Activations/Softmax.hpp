@@ -1,2 +1,5 @@
 /**
- * Softmax activation cla
+ * Softmax activation class definition
+ */
+
+#pragma once
