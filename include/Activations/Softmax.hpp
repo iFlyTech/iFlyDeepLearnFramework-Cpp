@@ -1,2 +1,2 @@
 /**
- 
+ * Softmax activation cla
