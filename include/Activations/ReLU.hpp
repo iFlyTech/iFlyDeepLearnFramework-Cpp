@@ -52,4 +52,4 @@ private:
   Eigen::MatrixXf mForwardInput;
 };
 }; // namespace Activations
-}; // n
+}; // namespace DeepLearningFramework
