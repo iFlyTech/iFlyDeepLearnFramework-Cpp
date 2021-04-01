@@ -13,3 +13,4 @@ namespace Activations {
 /**
  * Activation class: Softmax.
  *
+ * forward: output = exp(IN_i)/e
