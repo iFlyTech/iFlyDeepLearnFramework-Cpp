@@ -8,4 +8,6 @@
 
 #include <iostream>
 
-namespace DeepLearningFram
+namespace DeepLearningFramework {
+namespace Activations {
+/**
