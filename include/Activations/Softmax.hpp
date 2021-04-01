@@ -11,3 +11,5 @@
 namespace DeepLearningFramework {
 namespace Activations {
 /**
+ * Activation class: Softmax.
+ *
