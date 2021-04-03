@@ -20,4 +20,7 @@ namespace Activations {
 class Softmax : public Module {
 public:
   Softmax();
-  ~
+  ~Softmax() = default;
+
+  /**
+ 
