@@ -17,4 +17,7 @@ namespace Activations {
  * backward: output = [Softmax(forward_input) * (1 - Softmax(forward_input))] *
  * input
  */
-class Softmax : 
+class Softmax : public Module {
+public:
+  Softmax();
+  ~
