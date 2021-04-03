@@ -23,4 +23,4 @@ public:
   ~Softmax() = default;
 
   /**
- 
+   * Forward pass of the Soft
