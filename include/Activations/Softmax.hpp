@@ -24,3 +24,5 @@ public:
 
   /**
    * Forward pass of the Softmax activation function.
+   *
+   * @param[out] out exp(IN_i
