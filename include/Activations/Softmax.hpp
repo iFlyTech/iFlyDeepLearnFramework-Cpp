@@ -25,4 +25,5 @@ public:
   /**
    * Forward pass of the Softmax activation function.
    *
-   * @param[out] out exp(IN_i)/exp(sum(IN)), input saved for backwa
+   * @param[out] out exp(IN_i)/exp(sum(IN)), input saved for backward pass
+   * @param[in] x Val
