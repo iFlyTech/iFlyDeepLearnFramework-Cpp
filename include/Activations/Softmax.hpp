@@ -28,4 +28,7 @@ public:
    * @param[out] out exp(IN_i)/exp(sum(IN)), input saved for backward pass
    * @param[in] x Values on which to apply Softmax
    */
-  void forward(Eigen::MatrixXf &out, const Eigen::MatrixXf &x) overr
+  void forward(Eigen::MatrixXf &out, const Eigen::MatrixXf &x) override;
+
+  /**
+   * Backward pass of t
