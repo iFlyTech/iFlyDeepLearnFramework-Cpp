@@ -33,4 +33,4 @@ public:
   /**
    * Backward pass of the Softmax activation function.
    *
-   * @par
+   * @param[out] ddout [Softmax(forward
