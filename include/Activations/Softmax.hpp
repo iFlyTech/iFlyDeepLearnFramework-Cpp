@@ -31,4 +31,6 @@ public:
   void forward(Eigen::MatrixXf &out, const Eigen::MatrixXf &x) override;
 
   /**
-   * Backward pass of t
+   * Backward pass of the Softmax activation function.
+   *
+   * @par
