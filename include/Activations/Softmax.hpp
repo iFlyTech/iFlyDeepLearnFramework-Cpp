@@ -35,4 +35,6 @@ public:
    *
    * @param[out] ddout [Softmax(forward_input) * (1 - Softmax(forward_input))] *
    * input
-   * @param[in] dout Values on which to app
+   * @param[in] dout Values on which to apply backpropagation
+   */
+  void backwa
