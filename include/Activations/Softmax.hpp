@@ -37,4 +37,4 @@ public:
    * input
    * @param[in] dout Values on which to apply backpropagation
    */
-  void backwa
+  void backward(Eigen::MatrixXf &ddout, const Eigen
