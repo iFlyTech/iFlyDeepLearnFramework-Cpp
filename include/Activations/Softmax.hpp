@@ -40,4 +40,6 @@ public:
   void backward(Eigen::MatrixXf &ddout, const Eigen::MatrixXf &dout) override;
 
   /* Print description of Softmax activation class */
-  void printDescription() override
+  void printDescription() override;
+
+  /* Override set learning rate
