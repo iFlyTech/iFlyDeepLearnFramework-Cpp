@@ -42,4 +42,5 @@ public:
   /* Print description of Softmax activation class */
   void printDescription() override;
 
-  /* Override set learning rate
+  /* Override set learning rate */
+  void setLR(float lr) overr
