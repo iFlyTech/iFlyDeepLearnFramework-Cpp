@@ -50,4 +50,6 @@ public:
 
 private:
   /**
-   * Softma
+   * Softmax equation implementation.
+   *
+ 
