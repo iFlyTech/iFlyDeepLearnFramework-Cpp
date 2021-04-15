@@ -46,4 +46,5 @@ public:
   void setLR(float lr) override {}
 
   /* Override getParametersCount */
-  uint32_t getP
+  uint32_t getParametersCount() override { return 0; }
+
