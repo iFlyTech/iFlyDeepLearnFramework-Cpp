@@ -45,4 +45,5 @@ public:
   /* Override set learning rate */
   void setLR(float lr) override {}
 
-  /* Override getPar
+  /* Override getParametersCount */
+  uint32_t getP
