@@ -48,3 +48,6 @@ public:
   /* Override getParametersCount */
   uint32_t getParametersCount() override { return 0; }
 
+private:
+  /**
+   * Softma
