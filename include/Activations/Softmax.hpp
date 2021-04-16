@@ -52,4 +52,4 @@ private:
   /**
    * Softmax equation implementation.
    *
- 
+   * @param[in] x Values on which 
