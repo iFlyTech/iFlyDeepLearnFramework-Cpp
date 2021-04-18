@@ -52,4 +52,5 @@ private:
   /**
    * Softmax equation implementation.
    *
-   * @param[in] x Values on which 
+   * @param[in] x Values on which to apply equation
+   * @param[in] y 
