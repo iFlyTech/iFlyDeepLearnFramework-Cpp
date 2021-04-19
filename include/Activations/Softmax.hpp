@@ -53,4 +53,5 @@ private:
    * Softmax equation implementation.
    *
    * @param[in] x Values on which to apply equation
-   * @param[in] y 
+   * @param[in] y exp(IN_i)/exp(sum(IN))
+   *
