@@ -54,4 +54,5 @@ private:
    *
    * @param[in] x Values on which to apply equation
    * @param[in] y exp(IN_i)/exp(sum(IN))
-   *
+   */
+  void equation(Eigen::MatrixXf &y, c
