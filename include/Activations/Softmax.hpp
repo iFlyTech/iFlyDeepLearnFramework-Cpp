@@ -57,4 +57,5 @@ private:
    */
   void equation(Eigen::MatrixXf &y, const Eigen::MatrixXf &x);
 
-  std::string mType = "Activation
+  std::string mType = "Activation";
+  std::string mName = "Softmax
