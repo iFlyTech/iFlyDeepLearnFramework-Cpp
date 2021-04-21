@@ -59,4 +59,6 @@ private:
 
   std::string mType = "Activation";
   std::string mName = "Softmax";
-  Eigen::MatrixXf mFor
+  Eigen::MatrixXf mForwardInputWithSoftmaxApplied;
+};
+}; // na
