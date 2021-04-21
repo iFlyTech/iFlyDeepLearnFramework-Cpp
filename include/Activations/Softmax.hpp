@@ -57,4 +57,4 @@ private:
    */
   void equation(Eigen::MatrixXf &y, const Eigen::MatrixXf &x);
 
-  st
+  std::string mType = "Activation
