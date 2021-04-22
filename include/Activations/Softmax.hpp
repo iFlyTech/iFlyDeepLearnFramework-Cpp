@@ -62,4 +62,4 @@ private:
   Eigen::MatrixXf mForwardInputWithSoftmaxApplied;
 };
 }; // namespace Activations
-}; // 
+}; // namespace DeepLearningFramework
