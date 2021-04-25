@@ -14,4 +14,4 @@ namespace Layers {
  * Layer class: Linear.
  *
  * forward: output = input * weights + bias
- * backwar
+ * backward: update Weights nd Bias; output = input * 
