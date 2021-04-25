@@ -9,4 +9,6 @@
 #include <iostream>
 
 namespace DeepLearningFramework {
-n
+namespace Layers {
+/**
+ * Layer clas
