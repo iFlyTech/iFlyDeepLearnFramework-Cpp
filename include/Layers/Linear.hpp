@@ -11,4 +11,6 @@
 namespace DeepLearningFramework {
 namespace Layers {
 /**
- * Layer clas
+ * Layer class: Linear.
+ *
+ * forward: output = 
