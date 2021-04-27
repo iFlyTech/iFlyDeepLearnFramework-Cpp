@@ -16,4 +16,6 @@ namespace Layers {
  * forward: output = input * weights + bias
  * backward: update Weights nd Bias; output = input * weights
  */
-class Linear : publ
+class Linear : public Module {
+public:
+  Linear(in
