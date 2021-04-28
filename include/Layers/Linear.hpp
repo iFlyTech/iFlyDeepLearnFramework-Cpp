@@ -18,4 +18,5 @@ namespace Layers {
  */
 class Linear : public Module {
 public:
-  Linear(int inputFeaturesNumber, int outputFe
+  Linear(int inputFeaturesNumber, int outputFeaturesNumber);
+  ~Linear()
