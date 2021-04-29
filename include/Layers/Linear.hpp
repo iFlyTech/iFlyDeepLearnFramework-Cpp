@@ -22,4 +22,6 @@ public:
   ~Linear() = default;
 
   /**
-   * Forward p
+   * Forward pass of the Linear layer.
+   *
+   
