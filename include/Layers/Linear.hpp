@@ -19,4 +19,7 @@ namespace Layers {
 class Linear : public Module {
 public:
   Linear(int inputFeaturesNumber, int outputFeaturesNumber);
-  ~Linear()
+  ~Linear() = default;
+
+  /**
+   * Forward p
