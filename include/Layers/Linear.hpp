@@ -24,4 +24,5 @@ public:
   /**
    * Forward pass of the Linear layer.
    *
+   * @param[out] out input * weights + bias
    
