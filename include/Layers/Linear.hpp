@@ -27,4 +27,4 @@ public:
    * @param[out] out input * weights + bias
    * @param[in] x Values on which to apply weights and biases.
    */
-  void forward(Eigen::Mat
+  void forward(Eigen::MatrixXf &out, const Eigen::Ma
