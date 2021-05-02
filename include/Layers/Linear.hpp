@@ -30,4 +30,6 @@ public:
   void forward(Eigen::MatrixXf &out, const Eigen::MatrixXf &x) override;
 
   /**
-   * Backward 
+   * Backward pass of the Linear layer.
+   *
+   
