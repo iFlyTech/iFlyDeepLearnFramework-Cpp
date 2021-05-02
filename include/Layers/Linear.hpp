@@ -32,4 +32,5 @@ public:
   /**
    * Backward pass of the Linear layer.
    *
-   
+   * @param[out] ddout input * weights
+   *
