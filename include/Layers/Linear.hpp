@@ -35,4 +35,4 @@ public:
    * @param[out] ddout input * weights
    * @param[in] dout Values on which to apply weights and biases.
    */
-  void b
+  void backward(Eigen::MatrixXf &ddout, const 
