@@ -33,4 +33,6 @@ public:
    * Backward pass of the Linear layer.
    *
    * @param[out] ddout input * weights
-   * @param[in] dout Values on which
+   * @param[in] dout Values on which to apply weights and biases.
+   */
+  void b
