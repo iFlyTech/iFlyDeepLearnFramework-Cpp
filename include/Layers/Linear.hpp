@@ -37,4 +37,5 @@ public:
    */
   void backward(Eigen::MatrixXf &ddout, const Eigen::MatrixXf &dout) override;
 
-  /* Print descript
+  /* Print description of Linear layer class */
+  void
