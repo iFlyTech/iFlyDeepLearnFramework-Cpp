@@ -41,4 +41,4 @@ public:
   void printDescription() override;
 
   /**
-   * Se
+   * Set learning rate used to update wei
