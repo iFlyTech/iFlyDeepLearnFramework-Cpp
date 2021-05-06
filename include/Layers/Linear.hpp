@@ -45,4 +45,6 @@ public:
    *
    * @param[in] lr learning rate to use.
    */
-  vo
+  void setLR(float lr);
+
+  /*
