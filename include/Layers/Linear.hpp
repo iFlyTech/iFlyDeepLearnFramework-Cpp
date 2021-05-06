@@ -47,4 +47,4 @@ public:
    */
   void setLR(float lr);
 
-  /*
+  /** Get the number of parameters of 
