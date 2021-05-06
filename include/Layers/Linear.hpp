@@ -43,4 +43,6 @@ public:
   /**
    * Set learning rate used to update weights and bias.
    *
-   * @param[in] 
+   * @param[in] lr learning rate to use.
+   */
+  vo
