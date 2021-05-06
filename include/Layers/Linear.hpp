@@ -41,4 +41,6 @@ public:
   void printDescription() override;
 
   /**
-   * Set learning rate used to update wei
+   * Set learning rate used to update weights and bias.
+   *
+   * @param[in] 
