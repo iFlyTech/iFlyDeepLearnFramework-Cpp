@@ -47,4 +47,5 @@ public:
    */
   void setLR(float lr);
 
-  /** Get the number of parameters of 
+  /** Get the number of parameters of the Linear layer. */
+  uint32_t getP
