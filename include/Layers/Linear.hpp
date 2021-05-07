@@ -50,4 +50,5 @@ public:
   /** Get the number of parameters of the Linear layer. */
   uint32_t getParametersCount();
 
-  /** get weigh
+  /** get weights */
+  Eigen::MatrixXf g
