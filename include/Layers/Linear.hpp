@@ -48,4 +48,6 @@ public:
   void setLR(float lr);
 
   /** Get the number of parameters of the Linear layer. */
-  uint32_t getP
+  uint32_t getParametersCount();
+
+  /** get weigh
