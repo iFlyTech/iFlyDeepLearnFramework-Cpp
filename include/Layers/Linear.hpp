@@ -51,4 +51,7 @@ public:
   uint32_t getParametersCount();
 
   /** get weights */
-  Eigen::MatrixXf g
+  Eigen::MatrixXf getWeights();
+
+  /** get bias */
+  
