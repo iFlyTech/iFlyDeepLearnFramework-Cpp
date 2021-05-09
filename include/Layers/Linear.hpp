@@ -56,4 +56,5 @@ public:
   /** get bias */
   Eigen::MatrixXf getBias();
 
-  /** set weights and bias for unit testing
+  /** set weights and bias for unit testings purpose */
+  void setWeightsAndBi
