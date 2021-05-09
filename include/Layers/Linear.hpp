@@ -54,4 +54,6 @@ public:
   Eigen::MatrixXf getWeights();
 
   /** get bias */
-  
+  Eigen::MatrixXf getBias();
+
+  /*
