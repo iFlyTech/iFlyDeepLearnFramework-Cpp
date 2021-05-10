@@ -57,4 +57,4 @@ public:
   Eigen::MatrixXf getBias();
 
   /** set weights and bias for unit testings purpose */
-  void setWeightsAndBi
+  void setWeightsAndBias(const Eigen::MatrixXf &weight
