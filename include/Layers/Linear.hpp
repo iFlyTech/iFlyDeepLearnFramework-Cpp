@@ -60,3 +60,6 @@ public:
   void setWeightsAndBias(const Eigen::MatrixXf &weights,
                          const Eigen::MatrixXf &bias);
 
+private:
+  /**
+   * Update w
