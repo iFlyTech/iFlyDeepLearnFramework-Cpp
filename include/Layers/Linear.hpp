@@ -62,4 +62,5 @@ public:
 
 private:
   /**
-   * Update w
+   * Update weights and bias with given parameters.
+   *
