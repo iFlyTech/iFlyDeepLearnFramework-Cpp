@@ -64,3 +64,4 @@ private:
   /**
    * Update weights and bias with given parameters.
    *
+   * @param dout Input given to th
