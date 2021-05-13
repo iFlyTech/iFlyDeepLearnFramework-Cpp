@@ -64,4 +64,4 @@ private:
   /**
    * Update weights and bias with given parameters.
    *
-   * @param dout Input given to th
+   * @param dout Input given to the backward pass from next layer.
