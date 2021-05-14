@@ -68,4 +68,5 @@ private:
    */
   void update();
 
-  std
+  std::string mType = "Layer";
+  std:
