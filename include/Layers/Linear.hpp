@@ -69,4 +69,5 @@ private:
   void update();
 
   std::string mType = "Layer";
-  std:
+  std::string mName = "Linear";
+  Eigen::Matri
