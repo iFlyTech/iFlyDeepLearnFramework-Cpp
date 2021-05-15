@@ -70,4 +70,5 @@ private:
 
   std::string mType = "Layer";
   std::string mName = "Linear";
-  Eigen::Matri
+  Eigen::MatrixXf mForwardInput;
+  int mInputFe
