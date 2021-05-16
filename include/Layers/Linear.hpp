@@ -72,4 +72,5 @@ private:
   std::string mName = "Linear";
   Eigen::MatrixXf mForwardInput;
   int mInputFeaturesNumber = -1;
-  int mOutputF
+  int mOutputFeaturesNumber = -1;
+  Eigen:
