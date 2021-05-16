@@ -74,4 +74,5 @@ private:
   int mInputFeaturesNumber = -1;
   int mOutputFeaturesNumber = -1;
   Eigen::MatrixXf mWeights;
-  Eigen
+  Eigen::MatrixXf mBias;
+  float mLR = 0.0
