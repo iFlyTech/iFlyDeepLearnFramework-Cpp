@@ -71,4 +71,5 @@ private:
   std::string mType = "Layer";
   std::string mName = "Linear";
   Eigen::MatrixXf mForwardInput;
-  int mInputFe
+  int mInputFeaturesNumber = -1;
+  int mOutputF
