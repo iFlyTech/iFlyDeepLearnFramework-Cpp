@@ -73,4 +73,5 @@ private:
   Eigen::MatrixXf mForwardInput;
   int mInputFeaturesNumber = -1;
   int mOutputFeaturesNumber = -1;
-  Eigen:
+  Eigen::MatrixXf mWeights;
+  Eigen
