@@ -75,4 +75,7 @@ private:
   int mOutputFeaturesNumber = -1;
   Eigen::MatrixXf mWeights;
   Eigen::MatrixXf mBias;
-  float mLR = 0.0
+  float mLR = 0.01f;
+};
+}; // namespace Layers
+}; //
