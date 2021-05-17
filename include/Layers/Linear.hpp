@@ -78,4 +78,4 @@ private:
   float mLR = 0.01f;
 };
 }; // namespace Layers
-}; //
+}; // namespace DeepLearningF
