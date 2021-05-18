@@ -24,3 +24,30 @@ public:
 
   /**
    * Forward pass of the MSE loss function.
+   *
+   * @param[out] loss 1/N * SUM((yPred - y)^2), with N the number of samples
+   * @param[in] y target values
+   * @param[in] yPred values obtained by the neural network
+   */
+  void forward(float &loss, const Eigen::MatrixXf &y,
+               const Eigen::MatrixXf &yPred);
+
+  /**
+   * Backward pass of the MSE loss function.
+   *
+   * @param[out] dloss 2*(yPred-y)/N, with N the number of samples
+   * @param[in] y target values
+   * @param[in] yPred values obtained by the neural network
+   */
+  void backward(Eigen::MatrixXf &dloss, const Eigen::MatrixXf &y,
+                const Eigen::MatrixXf &yPred);
+
+  /* Print description of MSE loss class */
+  void printDescription();
+
+private:
+  std::string mType = "Loss";
+  std::string mName = "MSE";
+};
+}; // namespace Losses
+}; // namespace DeepLearningFramework
