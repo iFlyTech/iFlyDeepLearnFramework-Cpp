@@ -2,4 +2,6 @@
  * Metrics class definition
  */
 
-#pr
+#pragma once
+
+#include <Eigen/Dense>
