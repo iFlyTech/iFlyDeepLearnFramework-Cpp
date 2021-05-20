@@ -13,3 +13,6 @@ namespace DeepLearningFramework {
  * accuracy: count of good predictions / number of predictions
  */
 class Metrics {
+public:
+  Metrics() = delete;
+  ~Metrics() = del
