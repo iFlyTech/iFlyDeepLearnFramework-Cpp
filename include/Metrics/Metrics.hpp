@@ -10,4 +10,6 @@ namespace DeepLearningFramework {
 /**
  * Metrics class
  *
- * accuracy: count of good predictions / 
+ * accuracy: count of good predictions / number of predictions
+ */
+class Metrics {
