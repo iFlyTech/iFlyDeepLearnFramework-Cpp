@@ -18,4 +18,6 @@ public:
   ~Metrics() = delete;
 
   /**
-   * accuracy sta
+   * accuracy static method
+   *
+   * accuracy: c
