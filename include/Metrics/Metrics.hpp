@@ -20,4 +20,4 @@ public:
   /**
    * accuracy static method
    *
-   * accuracy: c
+   * accuracy: count of good predictions / number of predictio
