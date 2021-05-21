@@ -15,4 +15,7 @@ namespace DeepLearningFramework {
 class Metrics {
 public:
   Metrics() = delete;
-  ~Metrics() = del
+  ~Metrics() = delete;
+
+  /**
+   * accuracy sta
