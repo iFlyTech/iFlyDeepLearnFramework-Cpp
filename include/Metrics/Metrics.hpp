@@ -22,4 +22,5 @@ public:
    *
    * accuracy: count of good predictions / number of predictions
    *
-   * @param[out] accuracy accuracy 
+   * @param[out] accuracy accuracy in range [0.f, 1.f]
+   * @par
