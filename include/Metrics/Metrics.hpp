@@ -20,4 +20,6 @@ public:
   /**
    * accuracy static method
    *
-   * accuracy: count of good predictions / number of predictio
+   * accuracy: count of good predictions / number of predictions
+   *
+   * @param[out] accuracy accuracy 
