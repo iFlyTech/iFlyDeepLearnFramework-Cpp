@@ -24,4 +24,4 @@ public:
    *
    * @param[out] accuracy accuracy in range [0.f, 1.f]
    * @param[in] labels one-hot encoded labels in format [N, 2]
-   
+   * @param[in] features prediction i
