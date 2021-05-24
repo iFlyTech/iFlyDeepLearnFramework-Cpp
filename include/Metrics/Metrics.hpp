@@ -26,4 +26,5 @@ public:
    * @param[in] labels one-hot encoded labels in format [N, 2]
    * @param[in] features prediction in format [N, 2]
    */
-  static void accuracy(float &accuracy, 
+  static void accuracy(float &accuracy, const Eigen::MatrixXf &labels,
+       
