@@ -26,4 +26,4 @@ public:
    * @param[in] labels one-hot encoded labels in format [N, 2]
    * @param[in] features prediction in format [N, 2]
    */
-  stati
+  static void accuracy(float &accuracy, 
