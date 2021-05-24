@@ -27,4 +27,4 @@ public:
    * @param[in] features prediction in format [N, 2]
    */
   static void accuracy(float &accuracy, const Eigen::MatrixXf &labels,
-       
+                       const Eige
