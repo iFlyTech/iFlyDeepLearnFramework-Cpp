@@ -29,4 +29,4 @@ public:
   static void accuracy(float &accuracy, const Eigen::MatrixXf &labels,
                        const Eigen::MatrixXf &features);
 };
-};
+}; // namespace DeepLearningFramework
