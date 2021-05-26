@@ -56,3 +56,15 @@ public:
    * @param[in] lr learning rate to use.
    */
   void setLR(float lr);
+
+  /** Get the number of parameters of the model. */
+  uint32_t getParametersCount();
+
+private:
+  // type, name, neural network
+  std::string mType = "Module";
+  std::string mName = "Sequential";
+  std::vector<Module *> mModel;
+  Losses::MSE mLoss;
+};
+}; // namespace DeepLearningFramework
