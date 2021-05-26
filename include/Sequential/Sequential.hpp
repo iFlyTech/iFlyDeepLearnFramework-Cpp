@@ -36,3 +36,23 @@ public:
    * @param[in/out] x data on which to apply the model (all layers in sequence).
    * Modified with neural network result
    */
+  void forward(Eigen::MatrixXf &x);
+
+  /**
+   * Calculate loss and apply backward pass for each layer in reverse order.
+   *
+   * @param[out] loss Loss value
+   * @param[in] y target results.
+   * @param[in] yPred obtained results from the neural network.
+   */
+  void backward(float &loss, const Eigen::MatrixXf &y, Eigen::MatrixXf &yPred);
+
+  /* Print description of each module in sequence */
+  void printDescription();
+
+  /**
+   * Set learning rate used to update weights for all modules
+   *
+   * @param[in] lr learning rate to use.
+   */
+  void setLR(float lr);
