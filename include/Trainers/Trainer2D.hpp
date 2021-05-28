@@ -5,4 +5,6 @@
 #pragma once
 
 #include "Metrics.hpp"
-#include "Seque
+#include "Sequential.hpp"
+
+namespace DeepLearningFra
