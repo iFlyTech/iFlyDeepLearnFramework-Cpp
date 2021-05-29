@@ -7,4 +7,6 @@
 #include "Metrics.hpp"
 #include "Sequential.hpp"
 
-namespace DeepLearningFra
+namespace DeepLearningFramework {
+/**
+ * Trainer cla
