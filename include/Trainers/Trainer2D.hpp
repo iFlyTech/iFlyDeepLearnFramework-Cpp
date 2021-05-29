@@ -9,4 +9,8 @@
 
 namespace DeepLearningFramework {
 /**
- * Trainer cla
+ * Trainer class
+ *
+ * trainModel: train a model
+ */
+clas
