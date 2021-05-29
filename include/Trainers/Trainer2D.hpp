@@ -13,4 +13,6 @@ namespace DeepLearningFramework {
  *
  * trainModel: train a model
  */
-clas
+class Trainer2D {
+public:
+  Traine
