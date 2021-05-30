@@ -19,4 +19,6 @@ public:
   ~Trainer2D() = delete;
 
   /**
-   * trainMode
+   * trainModel static method
+   *
+ 
