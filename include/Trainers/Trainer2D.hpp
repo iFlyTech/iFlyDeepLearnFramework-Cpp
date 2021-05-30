@@ -16,4 +16,7 @@ namespace DeepLearningFramework {
 class Trainer2D {
 public:
   Trainer2D() = delete;
-  ~Traine
+  ~Trainer2D() = delete;
+
+  /**
+   * trainMode
