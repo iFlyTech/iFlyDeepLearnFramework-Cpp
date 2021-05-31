@@ -21,4 +21,4 @@ public:
   /**
    * trainModel static method
    *
- 
+   * Train a model for n epoch 
