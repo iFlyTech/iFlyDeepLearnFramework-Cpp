@@ -23,4 +23,4 @@ public:
    *
    * Train a model for n epoch on specified data
    *
-   * @param
+   * @param[out] trainLossHistory loss from epoc
