@@ -24,4 +24,5 @@ public:
    * Train a model for n epoch on specified data
    *
    * @param[out] trainLossHistory loss from epoch 0 to epochsCount on train set
-   * @param[out] trainAccuracyHistory a
+   * @param[out] trainAccuracyHistory accuracy from epoch 0 to epochsCount on
+  
