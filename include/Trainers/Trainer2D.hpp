@@ -25,4 +25,5 @@ public:
    *
    * @param[out] trainLossHistory loss from epoch 0 to epochsCount on train set
    * @param[out] trainAccuracyHistory accuracy from epoch 0 to epochsCount on
-  
+   * train set
+   * @param[out] testLossHistory l
