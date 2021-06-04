@@ -30,4 +30,5 @@ public:
    * @param[out] testAccuracyHistory accuracy from epoch 0 to epochsCount on
    * test set
    * @param[in/out] model to train
-   * @param[in] e
+   * @param[in] epochsCount number of epochs
+   * @para
