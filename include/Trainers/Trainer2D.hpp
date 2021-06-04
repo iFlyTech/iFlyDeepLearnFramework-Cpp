@@ -29,4 +29,5 @@ public:
    * @param[out] testLossHistory loss from epoch 0 to epochsCount on test set
    * @param[out] testAccuracyHistory accuracy from epoch 0 to epochsCount on
    * test set
-   * @param[in/out] model to
+   * @param[in/out] model to train
+   * @param[in] e
