@@ -31,4 +31,5 @@ public:
    * test set
    * @param[in/out] model to train
    * @param[in] epochsCount number of epochs
-   * @param[in] trainTarget labels of the 
+   * @param[in] trainTarget labels of the train set
+   * @param[in] trainFeatures f
