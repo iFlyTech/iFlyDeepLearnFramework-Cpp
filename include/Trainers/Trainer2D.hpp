@@ -33,4 +33,5 @@ public:
    * @param[in] epochsCount number of epochs
    * @param[in] trainTarget labels of the train set
    * @param[in] trainFeatures features of the train set
-   * @param[in] testTarget labels of the test
+   * @param[in] testTarget labels of the test set
+   * @param[in] testFeatu
