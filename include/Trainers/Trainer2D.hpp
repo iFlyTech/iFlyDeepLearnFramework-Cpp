@@ -35,4 +35,4 @@ public:
    * @param[in] trainFeatures features of the train set
    * @param[in] testTarget labels of the test set
    * @param[in] testFeatures features of the test set
-   * @p
+   * @param[in] batchSize batch size
