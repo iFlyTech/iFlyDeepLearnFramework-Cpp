@@ -36,4 +36,6 @@ public:
    * @param[in] testTarget labels of the test set
    * @param[in] testFeatures features of the test set
    * @param[in] batchSize batch size to use
-   * @param[in] verboseFrequence display loss and metrics ever
+   * @param[in] verboseFrequence display loss and metrics every N epochs
+   * (default N=1)
+   */
