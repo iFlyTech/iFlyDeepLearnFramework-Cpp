@@ -39,3 +39,5 @@ public:
    * @param[in] verboseFrequence display loss and metrics every N epochs
    * (default N=1)
    */
+  template <uint32_t batchSize>
+  s
