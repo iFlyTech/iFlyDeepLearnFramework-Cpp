@@ -40,4 +40,5 @@ public:
    * (default N=1)
    */
   template <uint32_t batchSize>
-  s
+  static void
+  trainModel(std::v
