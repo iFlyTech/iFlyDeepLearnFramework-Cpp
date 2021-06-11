@@ -42,4 +42,4 @@ public:
   template <uint32_t batchSize>
   static void
   trainModel(std::vector<float> trainLossHistory,
-             std::vector
+             std::vector<float> trainAccuracyHistory,
