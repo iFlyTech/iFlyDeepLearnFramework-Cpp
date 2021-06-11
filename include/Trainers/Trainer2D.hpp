@@ -43,4 +43,5 @@ public:
   static void
   trainModel(std::vector<float> trainLossHistory,
              std::vector<float> trainAccuracyHistory,
-             std::vector<float> te
+             std::vector<float> testLossHistory,
+        
