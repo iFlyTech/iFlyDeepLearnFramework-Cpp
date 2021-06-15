@@ -45,4 +45,5 @@ public:
              std::vector<float> trainAccuracyHistory,
              std::vector<float> testLossHistory,
              std::vector<float> testAccuracyHistory, Sequential &model,
-             uint32_t epochsCount, const Eigen::MatrixXf
+             uint32_t epochsCount, const Eigen::MatrixXf &trainTarget,
+             c
