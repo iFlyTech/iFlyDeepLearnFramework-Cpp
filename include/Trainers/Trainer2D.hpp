@@ -49,3 +49,7 @@ public:
              const Eigen::MatrixXf &trainFeatures,
              const Eigen::MatrixXf &testTarget,
              const Eigen::MatrixXf &testFeatures, uint32_t verboseFrequence);
+
+private:
+  /**
+   * Calculate and 
