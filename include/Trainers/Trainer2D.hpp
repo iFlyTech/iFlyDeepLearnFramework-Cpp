@@ -48,4 +48,4 @@ public:
              uint32_t epochsCount, const Eigen::MatrixXf &trainTarget,
              const Eigen::MatrixXf &trainFeatures,
              const Eigen::MatrixXf &testTarget,
-             const E
+             const Eigen::MatrixXf &testFeatures, ui
