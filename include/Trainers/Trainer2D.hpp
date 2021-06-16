@@ -47,4 +47,5 @@ public:
              std::vector<float> testAccuracyHistory, Sequential &model,
              uint32_t epochsCount, const Eigen::MatrixXf &trainTarget,
              const Eigen::MatrixXf &trainFeatures,
-             const Eigen::Matri
+             const Eigen::MatrixXf &testTarget,
+             const E
