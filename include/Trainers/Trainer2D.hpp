@@ -52,4 +52,4 @@ public:
 
 private:
   /**
-   * Calculate and 
+   * Calculate and add current accuracy to h
