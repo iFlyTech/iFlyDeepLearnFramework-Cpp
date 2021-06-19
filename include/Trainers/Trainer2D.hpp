@@ -55,3 +55,5 @@ private:
    * Calculate and add current accuracy to history
    *
    * Train a model for n epoch on specified data
+   *
+   * @param[out] accuracy
