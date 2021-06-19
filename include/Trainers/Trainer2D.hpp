@@ -52,4 +52,6 @@ public:
 
 private:
   /**
-   * Calculate and add current accuracy to h
+   * Calculate and add current accuracy to history
+   *
+   * Train a 
