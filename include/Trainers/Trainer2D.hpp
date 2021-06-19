@@ -54,4 +54,4 @@ private:
   /**
    * Calculate and add current accuracy to history
    *
-   * Train a 
+   * Train a model for n epoch on specified data
