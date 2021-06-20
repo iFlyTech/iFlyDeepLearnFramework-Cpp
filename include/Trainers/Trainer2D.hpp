@@ -56,4 +56,4 @@ private:
    *
    * Train a model for n epoch on specified data
    *
-   * @param[out] accuracy
+   * @param[out] accuracyHistory vector in which 
