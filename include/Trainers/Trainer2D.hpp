@@ -58,4 +58,5 @@ private:
    *
    * @param[out] accuracyHistory vector in which to add the accuracy
    * @param[in] model model to score wit haccuracy metric
-   * @param[in] l
+   * @param[in] labels labels
+   * @param[in] features
