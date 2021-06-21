@@ -57,4 +57,5 @@ private:
    * Train a model for n epoch on specified data
    *
    * @param[out] accuracyHistory vector in which to add the accuracy
-   * @param[in] model model to score wit h
+   * @param[in] model model to score wit haccuracy metric
+   * @param[in] l
