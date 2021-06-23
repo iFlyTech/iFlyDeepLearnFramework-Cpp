@@ -61,4 +61,4 @@ private:
    * @param[in] labels labels
    * @param[in] features features
    */
-  static void addAccur
+  static void addAccuracy(std::vector<float> &accuracyHisto
