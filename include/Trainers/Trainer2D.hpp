@@ -61,4 +61,5 @@ private:
    * @param[in] labels labels
    * @param[in] features features
    */
-  static void addAccuracy(std::vector<float> &accuracyHisto
+  static void addAccuracy(std::vector<float> &accuracyHistory,
+                          Sequen
