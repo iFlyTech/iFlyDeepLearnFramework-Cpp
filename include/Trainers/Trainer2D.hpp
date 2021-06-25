@@ -62,4 +62,4 @@ private:
    * @param[in] features features
    */
   static void addAccuracy(std::vector<float> &accuracyHistory,
-                          Sequen
+                          Sequential &model, const Eigen::Matr
