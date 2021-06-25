@@ -63,4 +63,4 @@ private:
    */
   static void addAccuracy(std::vector<float> &accuracyHistory,
                           Sequential &model, const Eigen::MatrixXf &labels,
-               
+                          const Eigen::MatrixX
