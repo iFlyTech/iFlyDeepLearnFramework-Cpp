@@ -65,4 +65,6 @@ private:
                           Sequential &model, const Eigen::MatrixXf &labels,
                           const Eigen::MatrixXf &features);
 };
-}; // names
+}; // namespace DeepLearningFramework
+
+#include
