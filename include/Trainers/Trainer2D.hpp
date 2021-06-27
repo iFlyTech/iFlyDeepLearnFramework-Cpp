@@ -67,4 +67,4 @@ private:
 };
 }; // namespace DeepLearningFramework
 
-#include
+#include "Trainer2DTemplateImpl.hpp"
