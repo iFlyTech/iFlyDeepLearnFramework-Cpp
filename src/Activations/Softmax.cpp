@@ -1,2 +1,2 @@
 /**
- * So
+ * Softmax activation class implementation
