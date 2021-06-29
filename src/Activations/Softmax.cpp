@@ -6,4 +6,6 @@
 
 #include <iostream>
 
-using namespace Deep
+using namespace DeepLearningFramework::Activations;
+
+So
