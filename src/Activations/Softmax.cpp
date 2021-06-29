@@ -4,4 +4,6 @@
 
 #include "Softmax.hpp"
 
-#inclu
+#include <iostream>
+
+using namespace Deep
