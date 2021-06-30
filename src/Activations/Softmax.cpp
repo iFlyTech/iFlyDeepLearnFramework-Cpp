@@ -8,4 +8,6 @@
 
 using namespace DeepLearningFramework::Activations;
 
-So
+Softmax::Softmax() {}
+
+void Softmax::for
