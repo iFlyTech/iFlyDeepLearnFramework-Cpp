@@ -10,4 +10,4 @@ using namespace DeepLearningFramework::Activations;
 
 Softmax::Softmax() {}
 
-void Softmax::for
+void Softmax::forward(Eigen::MatrixXf &out, cons
