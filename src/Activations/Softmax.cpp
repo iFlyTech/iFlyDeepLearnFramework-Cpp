@@ -12,4 +12,7 @@ Softmax::Softmax() {}
 
 void Softmax::forward(Eigen::MatrixXf &out, const Eigen::MatrixXf &x) {
   Softmax::equation(out, x);
-  mForwardInputW
+  mForwardInputWithSoftmaxApplied = out;
+}
+
+vo
