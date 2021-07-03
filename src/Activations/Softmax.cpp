@@ -15,4 +15,5 @@ void Softmax::forward(Eigen::MatrixXf &out, const Eigen::MatrixXf &x) {
   mForwardInputWithSoftmaxApplied = out;
 }
 
-void Softmax::backward(Eigen::MatrixXf &ddout, const Eigen::MatrixXf &dou
+void Softmax::backward(Eigen::MatrixXf &ddout, const Eigen::MatrixXf &dout) {
+  const Eigen::MatrixXf grad 
