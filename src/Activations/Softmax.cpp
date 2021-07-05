@@ -20,4 +20,4 @@ void Softmax::backward(Eigen::MatrixXf &ddout, const Eigen::MatrixXf &dout) {
 
   for (int i = 0; i < dout.rows(); ++i) {
     for (int j = 0; j < dout.cols(); ++j) {
-      for
+      for (int k = 0; k < dout.cols(); ++k
