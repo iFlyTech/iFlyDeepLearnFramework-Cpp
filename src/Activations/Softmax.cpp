@@ -22,4 +22,5 @@ void Softmax::backward(Eigen::MatrixXf &ddout, const Eigen::MatrixXf &dout) {
     for (int j = 0; j < dout.cols(); ++j) {
       for (int k = 0; k < dout.cols(); ++k) {
         if (j == k) {
-          ddout(i, 
+          ddout(i, j) += grad(i, k) *
+                    
