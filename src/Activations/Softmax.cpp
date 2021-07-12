@@ -31,4 +31,8 @@ void Softmax::backward(Eigen::MatrixXf &ddout, const Eigen::MatrixXf &dout) {
                          (-mForwardInputWithSoftmaxApplied(i, j));
         }
       }
-    
+    }
+  }
+}
+
+void Softmax::p
