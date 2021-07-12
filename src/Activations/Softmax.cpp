@@ -35,4 +35,5 @@ void Softmax::backward(Eigen::MatrixXf &ddout, const Eigen::MatrixXf &dout) {
   }
 }
 
-void Softmax::p
+void Softmax::printDescription() {
+ 
