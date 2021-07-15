@@ -39,4 +39,5 @@ void Softmax::printDescription() {
   std::cout << "Softmax activation" << std::endl;
 }
 
-void Softmax::equation(Eigen::MatrixXf &y, const Eig
+void Softmax::equation(Eigen::MatrixXf &y, const Eigen::MatrixXf &x) {
+  Eigen::MatrixXf
