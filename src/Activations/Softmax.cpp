@@ -40,4 +40,4 @@ void Softmax::printDescription() {
 }
 
 void Softmax::equation(Eigen::MatrixXf &y, const Eigen::MatrixXf &x) {
-  Eigen::MatrixXf
+  Eigen::MatrixXf expX = x.array().exp(
