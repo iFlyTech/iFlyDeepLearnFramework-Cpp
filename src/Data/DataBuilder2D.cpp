@@ -6,4 +6,4 @@
 
 using namespace DeepLearningFramework;
 
-voi
+void DataBuilder2D::generateDiscSet(Eigen::Mat
