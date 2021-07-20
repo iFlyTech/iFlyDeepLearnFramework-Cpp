@@ -7,4 +7,4 @@
 using namespace DeepLearningFramework;
 
 void DataBuilder2D::generateDiscSet(Eigen::MatrixXf &labels,
-                       
+                                    Eigen::MatrixXf &feat
