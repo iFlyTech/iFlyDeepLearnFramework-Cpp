@@ -12,4 +12,4 @@ void DataBuilder2D::generateDiscSet(Eigen::MatrixXf &labels,
   features = Eigen::MatrixXf::Random(samplesCount, 2);
   labels = Eigen::MatrixXf(samplesCount, 2);
 
-  for (uint3
+  for (uint32_t i = 0; i < samplesCount; i++)
