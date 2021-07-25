@@ -15,4 +15,6 @@ void DataBuilder2D::generateDiscSet(Eigen::MatrixXf &labels,
   for (uint32_t i = 0; i < samplesCount; i++) {
     if (pow(features(i, 0), 2) + pow(features(i, 1), 2) / M_PI < discRadius) {
       labels(i, 0) = 0.f;
-      label
+      labels(i, 1) = 1.f;
+    } else {
+      labels
