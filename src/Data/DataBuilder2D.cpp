@@ -18,4 +18,7 @@ void DataBuilder2D::generateDiscSet(Eigen::MatrixXf &labels,
       labels(i, 1) = 1.f;
     } else {
       labels(i, 0) = 1.f;
-      labels(i, 1)
+      labels(i, 1) = 0.f;
+    }
+  }
+}
