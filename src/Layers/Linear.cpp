@@ -40,3 +40,19 @@ void Linear::printDescription() {
             << "parameters: " << this->getParametersCount()
             << ", learning rate: " << mLR << std::endl;
 }
+
+void Linear::setLR(float lr) { mLR = lr; }
+
+uint32_t Linear::getParametersCount() {
+  return mInputFeaturesNumber * mOutputFeaturesNumber + mOutputFeaturesNumber;
+}
+
+Eigen::MatrixXf Linear::getWeights() { return mWeights; }
+
+Eigen::MatrixXf Linear::getBias() { return mBias; }
+
+void Linear::setWeightsAndBias(const Eigen::MatrixXf &weights,
+                               const Eigen::MatrixXf &bias) {
+  mWeights = weights;
+  mBias = bias;
+}
