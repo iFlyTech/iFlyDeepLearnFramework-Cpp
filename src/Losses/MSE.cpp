@@ -6,4 +6,4 @@
 
 #include <iostream>
 
-using 
+using namespace DeepLearningFramework::
