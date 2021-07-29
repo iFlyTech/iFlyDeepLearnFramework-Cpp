@@ -10,4 +10,4 @@ using namespace DeepLearningFramework::Losses;
 
 MSE::MSE() {}
 
-void MSE::
+void MSE::forward(float &loss, const Eig
