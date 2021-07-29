@@ -6,4 +6,8 @@
 
 #include <iostream>
 
-using namespace DeepLearningFramework::
+using namespace DeepLearningFramework::Losses;
+
+MSE::MSE() {}
+
+void MSE::
