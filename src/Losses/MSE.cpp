@@ -12,4 +12,4 @@ MSE::MSE() {}
 
 void MSE::forward(float &loss, const Eigen::MatrixXf &y,
                   const Eigen::MatrixXf &yPred) {
- 
+  loss = (yPred - y).squaredNorm() / y.
