@@ -15,4 +15,4 @@ void MSE::forward(float &loss, const Eigen::MatrixXf &y,
   loss = (yPred - y).squaredNorm() / y.rows();
 }
 
-void MSE::backward(Eigen:
+void MSE::backward(Eigen::MatrixXf &dloss, const Eigen::
