@@ -17,4 +17,7 @@ void MSE::forward(float &loss, const Eigen::MatrixXf &y,
 
 void MSE::backward(Eigen::MatrixXf &dloss, const Eigen::MatrixXf &y,
                    const Eigen::MatrixXf &yPred) {
-  dloss = 2.f * (yPred - y
+  dloss = 2.f * (yPred - y) / y.rows();
+}
+
+void MSE::printDescr
