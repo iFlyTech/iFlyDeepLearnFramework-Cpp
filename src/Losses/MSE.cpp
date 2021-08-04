@@ -20,4 +20,4 @@ void MSE::backward(Eigen::MatrixXf &dloss, const Eigen::MatrixXf &y,
   dloss = 2.f * (yPred - y) / y.rows();
 }
 
-void MSE::printDescr
+void MSE::printDescription() { std::cout << "MSE loss" << st
