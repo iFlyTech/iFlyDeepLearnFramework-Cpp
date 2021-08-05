@@ -1,2 +1,3 @@
 /**
- * Sequentia
+ * Sequential model class implementation
+ *
