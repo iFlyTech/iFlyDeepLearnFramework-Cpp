@@ -4,4 +4,6 @@
 
 #include "Sequential.hpp"
 
-#
+#include <iostream>
+
+using n
