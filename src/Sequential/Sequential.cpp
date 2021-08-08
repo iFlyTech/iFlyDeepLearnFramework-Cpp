@@ -10,4 +10,7 @@ using namespace DeepLearningFramework;
 
 Sequential::Sequential(std::vector<Module *> &model, Losses::MSE loss) {
   mModel = model;
-  m
+  mLoss = loss;
+}
+
+void Sequential::f
