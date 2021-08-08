@@ -8,3 +8,4 @@
 
 using namespace DeepLearningFramework;
 
+Sequential::Sequential(st
