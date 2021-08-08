@@ -8,4 +8,4 @@
 
 using namespace DeepLearningFramework;
 
-Sequential::Sequential(st
+Sequential::Sequential(std::vector<Module *> &model, Losses:
