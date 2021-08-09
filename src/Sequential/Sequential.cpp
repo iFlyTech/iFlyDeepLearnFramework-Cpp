@@ -13,4 +13,4 @@ Sequential::Sequential(std::vector<Module *> &model, Losses::MSE loss) {
   mLoss = loss;
 }
 
-void Sequential::f
+void Sequential::forward(Eigen::MatrixXf &x) {
