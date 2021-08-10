@@ -15,4 +15,5 @@ Sequential::Sequential(std::vector<Module *> &model, Losses::MSE loss) {
 
 void Sequential::forward(Eigen::MatrixXf &x) {
   std::vector<Module *>::iterator it;
-  for (it = mModel.begin(); it !
+  for (it = mModel.begin(); it != mModel.end(); it++)
+    (*
