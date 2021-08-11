@@ -19,4 +19,4 @@ void Sequential::forward(Eigen::MatrixXf &x) {
     (*it)->forward(x, x);
 }
 
-void Sequentia
+void Sequential::backward(float &loss, const Eigen:
