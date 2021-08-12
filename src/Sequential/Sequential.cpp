@@ -21,4 +21,5 @@ void Sequential::forward(Eigen::MatrixXf &x) {
 
 void Sequential::backward(float &loss, const Eigen::MatrixXf &y,
                           Eigen::MatrixXf &yPred) {
-  
+  // calculate loss
+  mLo
