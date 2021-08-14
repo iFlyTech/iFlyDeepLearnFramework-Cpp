@@ -26,4 +26,4 @@ void Sequential::backward(float &loss, const Eigen::MatrixXf &y,
 
   // back propagation
   Eigen::MatrixXf lossDerivative;
-  m
+  mLoss.backward(lossDerivative, 
