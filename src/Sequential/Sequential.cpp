@@ -23,3 +23,6 @@ void Sequential::backward(float &loss, const Eigen::MatrixXf &y,
                           Eigen::MatrixXf &yPred) {
   // calculate loss
   mLoss.forward(loss, y, yPred);
+
+  // back propagation
+  Eigen::MatrixXf l
