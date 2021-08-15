@@ -31,4 +31,5 @@ void Sequential::backward(float &loss, const Eigen::MatrixXf &y,
     (*it)->backward(lossDerivative, lossDerivative);
 }
 
-void Sequential::set
+void Sequential::setLR(float lr) {
+  std::vect
