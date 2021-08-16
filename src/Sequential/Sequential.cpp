@@ -33,4 +33,4 @@ void Sequential::backward(float &loss, const Eigen::MatrixXf &y,
 
 void Sequential::setLR(float lr) {
   std::vector<Module *>::iterator it;
-  for
+  for (it = mModel.begin(); it != mMod
