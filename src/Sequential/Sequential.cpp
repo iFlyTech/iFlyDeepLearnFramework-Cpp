@@ -36,3 +36,6 @@ void Sequential::setLR(float lr) {
   for (it = mModel.begin(); it != mModel.end(); it++)
     (*it)->setLR(lr);
 }
+
+uint32_t Sequential::getParametersCount() {
+ 
