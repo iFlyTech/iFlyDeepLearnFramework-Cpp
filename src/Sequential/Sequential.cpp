@@ -39,3 +39,4 @@ void Sequential::setLR(float lr) {
 
 uint32_t Sequential::getParametersCount() {
   uint32_t parametersCount = 0;
+  std::vector<Module *>::ite
