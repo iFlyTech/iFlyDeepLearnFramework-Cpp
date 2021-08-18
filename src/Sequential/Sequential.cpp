@@ -40,4 +40,5 @@ void Sequential::setLR(float lr) {
 uint32_t Sequential::getParametersCount() {
   uint32_t parametersCount = 0;
   std::vector<Module *>::iterator it;
-  for (it = mModel.
+  for (it = mModel.begin(); it != mModel.end(); it++)
+    p
