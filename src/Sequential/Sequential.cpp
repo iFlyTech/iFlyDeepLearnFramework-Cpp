@@ -41,4 +41,5 @@ uint32_t Sequential::getParametersCount() {
   uint32_t parametersCount = 0;
   std::vector<Module *>::iterator it;
   for (it = mModel.begin(); it != mModel.end(); it++)
-    parametersCount += (*it)->ge
+    parametersCount += (*it)->getParametersCount();
+  return paramet
