@@ -45,4 +45,6 @@ uint32_t Sequential::getParametersCount() {
   return parametersCount;
 }
 
-void Sequential::printDesc
+void Sequential::printDescription() {
+  // layer description
+  std::cout << "
