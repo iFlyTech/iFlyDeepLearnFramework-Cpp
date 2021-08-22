@@ -48,4 +48,5 @@ uint32_t Sequential::getParametersCount() {
 void Sequential::printDescription() {
   // layer description
   std::cout << "Model:" << std::endl;
-  std::vect
+  std::vector<Module *>::iterator it;
+  for (
