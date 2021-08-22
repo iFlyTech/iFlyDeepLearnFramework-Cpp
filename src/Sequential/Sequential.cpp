@@ -47,4 +47,5 @@ uint32_t Sequential::getParametersCount() {
 
 void Sequential::printDescription() {
   // layer description
-  std::cout << "
+  std::cout << "Model:" << std::endl;
+  std::vect
