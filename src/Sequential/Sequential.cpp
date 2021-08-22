@@ -49,4 +49,5 @@ void Sequential::printDescription() {
   // layer description
   std::cout << "Model:" << std::endl;
   std::vector<Module *>::iterator it;
-  for (it = mModel.begin(); it != mMode
+  for (it = mModel.begin(); it != mModel.end(); it++)
+    (*it)->printDescriptio
