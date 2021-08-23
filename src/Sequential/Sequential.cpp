@@ -53,4 +53,5 @@ void Sequential::printDescription() {
     (*it)->printDescription();
 
   // loss
-  std::cout << "\nWith 
+  std::cout << "\nWith loss:" << std::endl;
+  mLoss.printDesc
