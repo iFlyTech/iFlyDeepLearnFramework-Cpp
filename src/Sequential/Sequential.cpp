@@ -50,4 +50,7 @@ void Sequential::printDescription() {
   std::cout << "Model:" << std::endl;
   std::vector<Module *>::iterator it;
   for (it = mModel.begin(); it != mModel.end(); it++)
-    (*it)->printDescriptio
+    (*it)->printDescription();
+
+  // loss
+  std::cout << "\nWith 
