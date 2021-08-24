@@ -56,4 +56,5 @@ void Sequential::printDescription() {
   std::cout << "\nWith loss:" << std::endl;
   mLoss.printDescription();
 
-  // parameter
+  // parameters count
+  std::cout << "\nNumber o
