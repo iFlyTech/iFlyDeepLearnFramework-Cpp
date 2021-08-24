@@ -57,4 +57,5 @@ void Sequential::printDescription() {
   mLoss.printDescription();
 
   // parameters count
-  std::cout << "\nNumber of parameters:" << this->getP
+  std::cout << "\nNumber of parameters:" << this->getParametersCount()
+            << std::endl;
