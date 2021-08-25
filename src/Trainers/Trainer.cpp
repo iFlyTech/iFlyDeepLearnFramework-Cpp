@@ -4,4 +4,6 @@
 
 #include "Trainer2D.hpp"
 
-using namespace DeepLearningFrame
+using namespace DeepLearningFramework;
+
+void Trainer2D::addAccuracy(s
