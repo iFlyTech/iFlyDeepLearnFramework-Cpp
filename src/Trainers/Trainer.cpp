@@ -1,2 +1,5 @@
 /**
- * Trainer class implementa
+ * Trainer class implementation
+ */
+
+#include "Trainer2D.hpp
