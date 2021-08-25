@@ -59,3 +59,4 @@ void Sequential::printDescription() {
   // parameters count
   std::cout << "\nNumber of parameters:" << this->getParametersCount()
             << std::endl;
+}
