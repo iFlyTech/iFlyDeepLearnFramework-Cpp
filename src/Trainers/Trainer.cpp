@@ -7,4 +7,5 @@
 using namespace DeepLearningFramework;
 
 void Trainer2D::addAccuracy(std::vector<float> &accuracyHistory,
-                            Sequential &model, const E
+                            Sequential &model, const Eigen::MatrixXf &labels,
+               
