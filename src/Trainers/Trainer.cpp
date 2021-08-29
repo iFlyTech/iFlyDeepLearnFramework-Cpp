@@ -12,4 +12,5 @@ void Trainer2D::addAccuracy(std::vector<float> &accuracyHistory,
   Eigen::MatrixXf tmpFeatures = features;
   model.forward(tmpFeatures);
   float accuracy = 0.f;
-  Metrics::accuracy(accuracy, labels, tmpFe
+  Metrics::accuracy(accuracy, labels, tmpFeatures);
+  accuracyHistory
