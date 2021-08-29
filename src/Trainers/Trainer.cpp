@@ -13,4 +13,5 @@ void Trainer2D::addAccuracy(std::vector<float> &accuracyHistory,
   model.forward(tmpFeatures);
   float accuracy = 0.f;
   Metrics::accuracy(accuracy, labels, tmpFeatures);
-  accuracyHistory
+  accuracyHistory.push_back(accuracy);
+}
