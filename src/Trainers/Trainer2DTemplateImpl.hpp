@@ -1,2 +1,2 @@
 /**
- * Te
+ * Template function from Trainer2
