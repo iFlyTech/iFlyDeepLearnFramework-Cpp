@@ -4,4 +4,5 @@
 
 using namespace DeepLearningFramework;
 
-templat
+template <uint32_t batchSize>
+void Train
