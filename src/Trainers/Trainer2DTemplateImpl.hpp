@@ -5,4 +5,5 @@
 using namespace DeepLearningFramework;
 
 template <uint32_t batchSize>
-void Train
+void Trainer2D::trainModel(
+    std::vect
