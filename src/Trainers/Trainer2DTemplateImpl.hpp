@@ -6,4 +6,5 @@ using namespace DeepLearningFramework;
 
 template <uint32_t batchSize>
 void Trainer2D::trainModel(
-    std::vector<float> trainLossHistory
+    std::vector<float> trainLossHistory,
+    std::vector<float> trainAccuracyHis
