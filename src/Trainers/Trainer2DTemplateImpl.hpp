@@ -9,4 +9,4 @@ void Trainer2D::trainModel(
     std::vector<float> trainLossHistory,
     std::vector<float> trainAccuracyHistory, std::vector<float> testLossHistory,
     std::vector<float> testAccuracyHistory, Sequential &model,
-    uin
+    uint32_t epochsCount, const Eige
