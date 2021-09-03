@@ -9,4 +9,5 @@ void Trainer2D::trainModel(
     std::vector<float> trainLossHistory,
     std::vector<float> trainAccuracyHistory, std::vector<float> testLossHistory,
     std::vector<float> testAccuracyHistory, Sequential &model,
-    uint32_t epochsCount, const Eige
+    uint32_t epochsCount, const Eigen::MatrixXf &trainTarget,
+    
