@@ -12,4 +12,4 @@ void Trainer2D::trainModel(
     uint32_t epochsCount, const Eigen::MatrixXf &trainTarget,
     const Eigen::MatrixXf &trainFeatures, const Eigen::MatrixXf &testTarget,
     const Eigen::MatrixXf &testFeatures, uint32_t verboseFrequence) {
-  addAccu
+  addAccuracy(trainAccuracyHistory
