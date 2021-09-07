@@ -13,4 +13,4 @@ void Trainer2D::trainModel(
     const Eigen::MatrixXf &trainFeatures, const Eigen::MatrixXf &testTarget,
     const Eigen::MatrixXf &testFeatures, uint32_t verboseFrequence) {
   addAccuracy(trainAccuracyHistory, model, trainTarget, trainFeatures);
-  addAccuracy(testAccu
+  addAccuracy(testAccuracyHistory, model, testT
