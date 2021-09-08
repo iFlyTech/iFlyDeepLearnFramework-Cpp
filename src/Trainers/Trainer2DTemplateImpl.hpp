@@ -14,4 +14,4 @@ void Trainer2D::trainModel(
     const Eigen::MatrixXf &testFeatures, uint32_t verboseFrequence) {
   addAccuracy(trainAccuracyHistory, model, trainTarget, trainFeatures);
   addAccuracy(testAccuracyHistory, model, testTarget, testFeatures);
-  uint3
+  uint32_t batchesCount = trainFeatures.rows() / 
