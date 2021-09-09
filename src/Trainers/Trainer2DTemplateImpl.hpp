@@ -18,4 +18,4 @@ void Trainer2D::trainModel(
 
   for (uint32_t i = 0; i < epochsCount; i++) {
     float loss = 0.f;
-    for (uint32_
+    for (uint32_t batch_idx = 0; batch_idx < batchesCount; bat
