@@ -17,4 +17,5 @@ void Trainer2D::trainModel(
   uint32_t batchesCount = trainFeatures.rows() / batchSize;
 
   for (uint32_t i = 0; i < epochsCount; i++) {
-  
+    float loss = 0.f;
+    for (uint32_
