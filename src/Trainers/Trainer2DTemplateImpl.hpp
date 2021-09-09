@@ -16,4 +16,5 @@ void Trainer2D::trainModel(
   addAccuracy(testAccuracyHistory, model, testTarget, testFeatures);
   uint32_t batchesCount = trainFeatures.rows() / batchSize;
 
-  for (uint32_t i = 
+  for (uint32_t i = 0; i < epochsCount; i++) {
+  
