@@ -20,4 +20,5 @@ void Trainer2D::trainModel(
     float loss = 0.f;
     for (uint32_t batch_idx = 0; batch_idx < batchesCount; batch_idx++) {
       float batchLoss = 0.f;
-      Eigen::Matri
+      Eigen::MatrixXf batchFeatures =
+          t
