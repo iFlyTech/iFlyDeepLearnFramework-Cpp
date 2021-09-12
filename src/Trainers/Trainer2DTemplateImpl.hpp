@@ -22,4 +22,5 @@ void Trainer2D::trainModel(
       float batchLoss = 0.f;
       Eigen::MatrixXf batchFeatures =
           trainFeatures.block<batchSize, 2>(batch_idx * batchSize, 0);
-      Eigen::Ma
+      Eigen::MatrixXf batchTarget =
+          trainT
