@@ -25,4 +25,4 @@ void Trainer2D::trainModel(
       Eigen::MatrixXf batchTarget =
           trainTarget.block<batchSize, 2>(batch_idx * batchSize, 0);
       model.forward(batchFeatures);
-      model.backward(batc
+      model.backward(batchLoss, batchTarget, batchFeat
