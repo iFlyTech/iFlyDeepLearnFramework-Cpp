@@ -28,4 +28,4 @@ void Trainer2D::trainModel(
       model.backward(batchLoss, batchTarget, batchFeatures);
       loss += batchLoss;
     }
-    addAccuracy(trainAccur
+    addAccuracy(trainAccuracyHistory, model, trainTarget, tra
