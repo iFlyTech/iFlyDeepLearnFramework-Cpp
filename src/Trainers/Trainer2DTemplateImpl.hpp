@@ -29,4 +29,8 @@ void Trainer2D::trainModel(
       loss += batchLoss;
     }
     addAccuracy(trainAccuracyHistory, model, trainTarget, trainFeatures);
-    addAccuracy(testAccuracyHistory, model, testTarget, testFeature
+    addAccuracy(testAccuracyHistory, model, testTarget, testFeatures);
+
+    loss /= batchesCount;
+
+    
