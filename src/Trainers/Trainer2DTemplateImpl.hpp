@@ -33,4 +33,5 @@ void Trainer2D::trainModel(
 
     loss /= batchesCount;
 
-    
+    if (i % verboseFrequence == 0)
+      std::cout
