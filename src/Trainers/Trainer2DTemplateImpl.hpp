@@ -35,4 +35,5 @@ void Trainer2D::trainModel(
 
     if (i % verboseFrequence == 0)
       std::cout << "Epoch: " << i
-                << ", train accuracy: " << trainAccuracyHistory.at(i + 1
+                << ", train accuracy: " << trainAccuracyHistory.at(i + 1)
+                << ", loss: " << l
