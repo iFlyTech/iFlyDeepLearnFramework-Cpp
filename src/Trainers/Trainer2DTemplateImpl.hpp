@@ -37,4 +37,4 @@ void Trainer2D::trainModel(
       std::cout << "Epoch: " << i
                 << ", train accuracy: " << trainAccuracyHistory.at(i + 1)
                 << ", loss: " << loss
-                << ", te
+                << ", test accuracy: " << testAcc
