@@ -38,4 +38,6 @@ void Trainer2D::trainModel(
                 << ", train accuracy: " << trainAccuracyHistory.at(i + 1)
                 << ", loss: " << loss
                 << ", test accuracy: " << testAccuracyHistory.at(i + 1)
-                <
+                << std::endl;
+  }
+}
