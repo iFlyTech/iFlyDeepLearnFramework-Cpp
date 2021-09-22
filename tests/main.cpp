@@ -48,3 +48,7 @@ int main() {
 
   // Train model
   Trainer2D::trainModel<batchSize>(trainLossHistory, trainAccuracyHistory,
+                                   testLossHistory, testAccuracyHistory, model,
+                                   epochsCount, trainTarget, trainFeatures,
+                                   testTarget, testFeatures, verboseFrequence);
+}
