@@ -4,4 +4,4 @@ include_directories(
 )
 
 # source files
-file(GLOB SOU
+file(GLOB SOURCES "../../src/*/*.cpp" "src/*.
