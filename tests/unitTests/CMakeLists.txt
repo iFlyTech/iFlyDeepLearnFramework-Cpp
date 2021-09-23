@@ -6,4 +6,4 @@ include_directories(
 # source files
 file(GLOB SOURCES "../../src/*/*.cpp" "src/*.cpp" runAllTests.cpp)
 
-add_exec
+add_executable(UnitTests ${SOURCES})
