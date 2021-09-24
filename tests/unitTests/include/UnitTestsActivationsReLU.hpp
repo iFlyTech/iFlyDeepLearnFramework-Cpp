@@ -1,4 +1,5 @@
 #include "ReLU.hpp"
 
 namespace DeepLearningFramework {
-n
+namespace Activations {
+/**
