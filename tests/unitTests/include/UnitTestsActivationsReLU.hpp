@@ -2,4 +2,5 @@
 
 namespace DeepLearningFramework {
 namespace Activations {
-/** Unit tests for Activation class: Re
+/** Unit tests for Activation class: ReLU. */
+class UnitTestsActivationsR
