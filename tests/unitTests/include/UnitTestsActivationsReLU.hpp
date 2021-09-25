@@ -3,4 +3,6 @@
 namespace DeepLearningFramework {
 namespace Activations {
 /** Unit tests for Activation class: ReLU. */
-class UnitTestsActivationsR
+class UnitTestsActivationsReLU {
+public:
+  UnitTestsActivationsRe
