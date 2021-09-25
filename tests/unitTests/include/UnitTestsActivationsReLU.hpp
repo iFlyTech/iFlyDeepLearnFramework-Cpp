@@ -6,4 +6,6 @@ namespace Activations {
 class UnitTestsActivationsReLU {
 public:
   UnitTestsActivationsReLU() = delete;
-  ~UnitTestsActivatio
+  ~UnitTestsActivationsReLU() = delete;
+
+  static void 
