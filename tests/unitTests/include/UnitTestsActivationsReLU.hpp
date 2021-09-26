@@ -8,4 +8,5 @@ public:
   UnitTestsActivationsReLU() = delete;
   ~UnitTestsActivationsReLU() = delete;
 
-  static void reluActivationForwardPassTest(
+  static void reluActivationForwardPassTest();
+  static void reluActivation
