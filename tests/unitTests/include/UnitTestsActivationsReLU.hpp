@@ -9,4 +9,6 @@ public:
   ~UnitTestsActivationsReLU() = delete;
 
   static void reluActivationForwardPassTest();
-  static void reluActivation
+  static void reluActivationBackwardPassTest();
+};
+}; // namespac
