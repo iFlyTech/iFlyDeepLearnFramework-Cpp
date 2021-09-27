@@ -12,4 +12,4 @@ public:
   static void reluActivationBackwardPassTest();
 };
 }; // namespace Activations
-}; // namespace 
+}; // namespace DeepLearningFramework
