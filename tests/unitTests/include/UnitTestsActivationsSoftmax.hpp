@@ -1,3 +1,4 @@
 #include "Softmax.hpp"
 
-namespace DeepLea
+namespace DeepLearningFramework {
+namespace Activa
