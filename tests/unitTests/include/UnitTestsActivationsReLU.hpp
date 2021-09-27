@@ -11,4 +11,5 @@ public:
   static void reluActivationForwardPassTest();
   static void reluActivationBackwardPassTest();
 };
-}; // namespac
+}; // namespace Activations
+}; // namespace 
