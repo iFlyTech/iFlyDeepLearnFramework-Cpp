@@ -1,4 +1,5 @@
 #include "Softmax.hpp"
 
 namespace DeepLearningFramework {
-namespace Activa
+namespace Activations {
+/** Unit tests for Acti
