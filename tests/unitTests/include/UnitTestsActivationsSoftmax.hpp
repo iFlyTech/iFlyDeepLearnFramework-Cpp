@@ -2,4 +2,5 @@
 
 namespace DeepLearningFramework {
 namespace Activations {
-/** Unit tests for Acti
+/** Unit tests for Activation class: Softmax. */
+clas
