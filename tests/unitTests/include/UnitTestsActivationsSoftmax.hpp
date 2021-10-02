@@ -6,4 +6,6 @@ namespace Activations {
 class UnitTestsActivationsSoftmax {
 public:
   UnitTestsActivationsSoftmax() = delete;
-  ~UnitTestsActivationsSoftmax() = delete
+  ~UnitTestsActivationsSoftmax() = delete;
+
+  static void softmaxActiva
