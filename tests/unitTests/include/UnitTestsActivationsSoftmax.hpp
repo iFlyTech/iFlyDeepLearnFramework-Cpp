@@ -9,4 +9,6 @@ public:
   ~UnitTestsActivationsSoftmax() = delete;
 
   static void softmaxActivationForwardPassTest();
-  static void softmaxActivationBackwardPa
+  static void softmaxActivationBackwardPassTest();
+};
+}; // namespace
