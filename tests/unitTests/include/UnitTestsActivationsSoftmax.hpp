@@ -8,4 +8,5 @@ public:
   UnitTestsActivationsSoftmax() = delete;
   ~UnitTestsActivationsSoftmax() = delete;
 
-  static void softmaxActiva
+  static void softmaxActivationForwardPassTest();
+  st
