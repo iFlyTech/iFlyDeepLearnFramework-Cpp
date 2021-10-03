@@ -9,4 +9,4 @@ public:
   ~UnitTestsActivationsSoftmax() = delete;
 
   static void softmaxActivationForwardPassTest();
-  st
+  static void softmaxActivationBackwardPa
