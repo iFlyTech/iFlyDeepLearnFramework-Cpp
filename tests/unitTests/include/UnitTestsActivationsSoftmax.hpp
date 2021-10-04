@@ -12,4 +12,4 @@ public:
   static void softmaxActivationBackwardPassTest();
 };
 }; // namespace Activations
-}; // namespace DeepLe
+}; // namespace DeepLearningFramework
