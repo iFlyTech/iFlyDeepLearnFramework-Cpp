@@ -11,3 +11,6 @@ public:
 
   static void linearLayerForwardPassTest();
   static void linearLayerBackwardPassTest();
+};
+}; // namespace Layers
+}; // namespace DeepLearningFramework
