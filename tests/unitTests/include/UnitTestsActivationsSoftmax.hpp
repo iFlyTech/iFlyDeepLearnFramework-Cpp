@@ -11,4 +11,5 @@ public:
   static void softmaxActivationForwardPassTest();
   static void softmaxActivationBackwardPassTest();
 };
-}; // namespace
+}; // namespace Activations
+}; // namespace DeepLe
