@@ -1,4 +1,5 @@
 #include "MSE.hpp"
 
 namespace DeepLearningFramework {
-namespa
+namespace Losses {
+/** Unit tests for Loss c
