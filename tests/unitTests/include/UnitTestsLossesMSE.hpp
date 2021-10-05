@@ -1,3 +1,4 @@
 #include "MSE.hpp"
 
-namespace DeepLear
+namespace DeepLearningFramework {
+namespa
