@@ -2,4 +2,5 @@
 
 namespace DeepLearningFramework {
 namespace Losses {
-/** Unit tests for Loss c
+/** Unit tests for Loss class: MSE. */
+class UnitT
