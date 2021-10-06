@@ -5,4 +5,5 @@ namespace Losses {
 /** Unit tests for Loss class: MSE. */
 class UnitTestsLossesMSE {
 public:
-  UnitTestsLo
+  UnitTestsLossesMSE() = delete;
+  ~UnitTes
