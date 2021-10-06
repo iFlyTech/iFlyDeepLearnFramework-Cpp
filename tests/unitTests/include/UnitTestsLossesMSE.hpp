@@ -6,4 +6,6 @@ namespace Losses {
 class UnitTestsLossesMSE {
 public:
   UnitTestsLossesMSE() = delete;
-  ~UnitTes
+  ~UnitTestsLossesMSE() = delete;
+
+  s
