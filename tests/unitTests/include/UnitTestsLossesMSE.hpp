@@ -8,4 +8,5 @@ public:
   UnitTestsLossesMSE() = delete;
   ~UnitTestsLossesMSE() = delete;
 
-  s
+  static void mseLossForwardPassTest();
+  stat
