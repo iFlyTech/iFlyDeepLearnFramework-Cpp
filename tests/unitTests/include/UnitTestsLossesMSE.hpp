@@ -9,4 +9,4 @@ public:
   ~UnitTestsLossesMSE() = delete;
 
   static void mseLossForwardPassTest();
-  stat
+  static void mseLossBackwardPassTest();
