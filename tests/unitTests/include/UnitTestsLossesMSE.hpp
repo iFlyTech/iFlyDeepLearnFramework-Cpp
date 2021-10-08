@@ -10,3 +10,6 @@ public:
 
   static void mseLossForwardPassTest();
   static void mseLossBackwardPassTest();
+};
+}; // namespace Losses
+}; // n
