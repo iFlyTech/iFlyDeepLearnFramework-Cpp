@@ -12,4 +12,4 @@ public:
   static void mseLossBackwardPassTest();
 };
 }; // namespace Losses
-}; // n
+}; // namespace DeepLearningFramework
