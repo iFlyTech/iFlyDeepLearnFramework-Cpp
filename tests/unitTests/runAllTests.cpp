@@ -1,2 +1,2 @@
 #include "UnitTestsActivationsReLU.hpp"
-#include "U
+#include "UnitTestsActivationsSoftmax.hpp"
