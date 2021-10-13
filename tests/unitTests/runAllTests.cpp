@@ -3,4 +3,7 @@
 #include "UnitTestsLayersLinear.hpp"
 #include "UnitTestsLossesMSE.hpp"
 
-using namespace DeepLearningFrame
+using namespace DeepLearningFramework;
+
+int main() {
+  std::cout << "Linear 
