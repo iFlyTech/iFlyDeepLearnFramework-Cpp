@@ -6,4 +6,5 @@
 using namespace DeepLearningFramework;
 
 int main() {
-  std::cout << "Linear layer unit tests" << std::endl
+  std::cout << "Linear layer unit tests" << std::endl;
+  Layers::UnitTestsLayersLinear::lin
