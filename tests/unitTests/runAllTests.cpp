@@ -8,4 +8,4 @@ using namespace DeepLearningFramework;
 int main() {
   std::cout << "Linear layer unit tests" << std::endl;
   Layers::UnitTestsLayersLinear::linearLayerForwardPassTest();
-  
+  Layers::UnitTestsLayersLinear::line
