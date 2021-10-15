@@ -10,4 +10,4 @@ int main() {
   Layers::UnitTestsLayersLinear::linearLayerForwardPassTest();
   Layers::UnitTestsLayersLinear::linearLayerBackwardPassTest();
 
-  std::cout << "
+  std::cout << "MSE loss unit tests" << std::e
