@@ -14,4 +14,4 @@ int main() {
   Losses::UnitTestsLossesMSE::mseLossForwardPassTest();
   Losses::UnitTestsLossesMSE::mseLossBackwardPassTest();
 
-  s
+  std::cout << "ReLU activat
