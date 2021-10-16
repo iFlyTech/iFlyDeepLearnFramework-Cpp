@@ -12,4 +12,6 @@ int main() {
 
   std::cout << "MSE loss unit tests" << std::endl;
   Losses::UnitTestsLossesMSE::mseLossForwardPassTest();
-  Losses::UnitTestsLossesM
+  Losses::UnitTestsLossesMSE::mseLossBackwardPassTest();
+
+  s
