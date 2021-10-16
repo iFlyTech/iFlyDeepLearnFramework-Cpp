@@ -11,4 +11,5 @@ int main() {
   Layers::UnitTestsLayersLinear::linearLayerBackwardPassTest();
 
   std::cout << "MSE loss unit tests" << std::endl;
-  Losses::UnitTestsLossesMSE::mseLossForwardPassT
+  Losses::UnitTestsLossesMSE::mseLossForwardPassTest();
+  Losses::UnitTestsLossesM
