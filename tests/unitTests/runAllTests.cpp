@@ -15,3 +15,4 @@ int main() {
   Losses::UnitTestsLossesMSE::mseLossBackwardPassTest();
 
   std::cout << "ReLU activation unit tests" << std::endl;
+  Activations::UnitTestsActivation
