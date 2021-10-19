@@ -16,4 +16,6 @@ int main() {
 
   std::cout << "ReLU activation unit tests" << std::endl;
   Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest();
-  Activations::UnitTestsActivationsReLU::reluActivationBa
+  Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest();
+
+  std::cou
