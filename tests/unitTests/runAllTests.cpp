@@ -18,4 +18,4 @@ int main() {
   Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest();
   Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest();
 
-  std::cou
+  std::cout << "Softmax activation unit
