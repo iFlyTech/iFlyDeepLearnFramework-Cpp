@@ -19,4 +19,5 @@ int main() {
   Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest();
 
   std::cout << "Softmax activation unit tests" << std::endl;
-  Activations::UnitTestsActivationsSoftmax::sof
+  Activations::UnitTestsActivationsSoftmax::softmaxActivationForwardPassTest();
+  Ac
