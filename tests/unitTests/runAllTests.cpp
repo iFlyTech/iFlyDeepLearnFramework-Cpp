@@ -20,4 +20,5 @@ int main() {
 
   std::cout << "Softmax activation unit tests" << std::endl;
   Activations::UnitTestsActivationsSoftmax::softmaxActivationForwardPassTest();
-  Activations::UnitTestsActivationsSoftmax::softmaxActivationBack
+  Activations::UnitTestsActivationsSoftmax::softmaxActivationBackwardPassTest();
+}
