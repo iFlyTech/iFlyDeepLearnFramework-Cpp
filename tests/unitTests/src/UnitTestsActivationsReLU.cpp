@@ -2,4 +2,5 @@
 
 using namespace DeepLearningFramework;
 
-void Activations::UnitTestsActivationsReLU::reluActiva
+void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
+  
