@@ -1,3 +1,5 @@
 #include "UnitTestsActivationsReLU.hpp"
 
-using namespace DeepLear
+using namespace DeepLearningFramework;
+
+void Activations::Un
