@@ -8,4 +8,5 @@ void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
   Activations::ReLU reluActivation;
 
   Eigen::MatrixXf x{
-      {-9.f, -5.f, 0.f, 1.f, 2.f, 8
+      {-9.f, -5.f, 0.f, 1.f, 2.f, 8.f},
+      {9.f, -5.f, 0.f, 1.
