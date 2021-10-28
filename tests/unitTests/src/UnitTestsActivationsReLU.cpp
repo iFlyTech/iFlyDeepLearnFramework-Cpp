@@ -17,4 +17,5 @@ void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
   Eigen::MatrixXf target{
       {0.f, 0.f, 0.f, 1.f, 2.f, 8.f},
       {9.f, 0.f, 0.f, 1.f, 0.f, 8.f},
-      {0.f, 5.f, 0.f, 1.f, 2.f, 0
+      {0.f, 5.f, 0.f, 1.f, 2.f, 0.f},
+      {0.f, 0.f, 0.f, 1.f, 
