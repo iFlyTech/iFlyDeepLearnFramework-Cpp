@@ -22,4 +22,6 @@ void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
   };
 
   Eigen::MatrixXf out;
-  reluActivation.forward(o
+  reluActivation.forward(out, x);
+
+  if (!target.isApp
