@@ -21,4 +21,5 @@ void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
       {0.f, 0.f, 0.f, 1.f, 0.f, 8.f},
   };
 
-  Eigen::Matrix
+  Eigen::MatrixXf out;
+  reluActivation.forward(o
