@@ -25,4 +25,5 @@ void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
   reluActivation.forward(out, x);
 
   if (!target.isApprox(out)) {
-    std::cout << 
+    std::cout << "Result KO" << std::endl;
+    
