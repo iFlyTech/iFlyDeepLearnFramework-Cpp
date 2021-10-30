@@ -24,4 +24,5 @@ void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
   Eigen::MatrixXf out;
   reluActivation.forward(out, x);
 
-  if (!target.isApp
+  if (!target.isApprox(out)) {
+    std::cout << 
