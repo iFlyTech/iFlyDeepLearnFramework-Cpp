@@ -26,4 +26,4 @@ void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
 
   if (!target.isApprox(out)) {
     std::cout << "Result KO" << std::endl;
-    
+    std::cout << "Expect: " << target << s
