@@ -28,3 +28,7 @@ void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
     std::cout << "Result KO" << std::endl;
     std::cout << "Expect: " << target << std::endl;
     std::cout << "Got: " << out << std::endl;
+    return;
+  }
+
+  std::cout << "
