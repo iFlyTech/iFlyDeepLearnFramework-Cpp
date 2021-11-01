@@ -31,4 +31,7 @@ void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
     return;
   }
 
-  std::cout << "
+  std::cout << "OK" << std::endl;
+}
+
+void Activa
