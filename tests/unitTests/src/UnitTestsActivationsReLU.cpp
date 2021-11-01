@@ -35,4 +35,4 @@ void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
 }
 
 void Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest() {
-  s
+  std::cout << "Backward test:" <
