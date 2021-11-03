@@ -37,4 +37,6 @@ void Activations::UnitTestsActivationsReLU::reluActivationForwardPassTest() {
 void Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest() {
   std::cout << "Backward test:" << std::endl;
 
-  Activations::R
+  Activations::ReLU reluActivation;
+
+  // forward in
