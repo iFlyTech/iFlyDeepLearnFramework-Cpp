@@ -39,4 +39,5 @@ void Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest() {
 
   Activations::ReLU reluActivation;
 
-  // forward in
+  // forward input
+  Eigen::MatrixXf forwardX{
