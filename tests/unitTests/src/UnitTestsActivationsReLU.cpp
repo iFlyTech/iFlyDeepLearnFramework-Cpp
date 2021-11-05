@@ -44,4 +44,7 @@ void Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest() {
       {3.f, -5.f, 0.f, 1.f, 2.f, 7.f},
       {9.f, -5.f, 0.f, 1.f, -2.f, -8.f},
       {-4.f, 5.f, 8.f, -1.f, 2.f, -8.f},
-      {-2.f, -5.f, 0.f, 4.f
+      {-2.f, -5.f, 0.f, 4.f, -2.f, 8.f},
+  };
+
+  // backward in
