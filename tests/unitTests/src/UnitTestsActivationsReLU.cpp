@@ -48,4 +48,5 @@ void Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest() {
   };
 
   // backward input
-  Eigen::MatrixXf ba
+  Eigen::MatrixXf backwardX{
+      {7.f, 7.f, 0.f,
