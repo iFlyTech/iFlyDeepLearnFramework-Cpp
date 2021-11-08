@@ -56,4 +56,5 @@ void Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest() {
   };
   Eigen::MatrixXf backwardTarget{
       {7.f, 0.f, 0.f, 1.f, -4.f, 7.f},
-      {-4.f, 0.f, 3.f, 1.f, 0.f, 0.f}
+      {-4.f, 0.f, 3.f, 1.f, 0.f, 0.f},
+      {0.f, -4.f, -8.f, 0.f, 2.f, 
