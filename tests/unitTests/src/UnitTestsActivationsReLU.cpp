@@ -64,4 +64,6 @@ void Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest() {
   Eigen::MatrixXf out;
   reluActivation.forward(out, forwardX);
 
-  reluActivation.backward(
+  reluActivation.backward(out, backwardX);
+
+  if (!backwardTar
