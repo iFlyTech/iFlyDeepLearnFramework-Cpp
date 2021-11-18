@@ -68,4 +68,4 @@ void Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest() {
 
   if (!backwardTarget.isApprox(out)) {
     std::cout << "Result KO" << std::endl;
-    std::cout << "
+    std::cout << "Expect: " << backwardTarget << std::
