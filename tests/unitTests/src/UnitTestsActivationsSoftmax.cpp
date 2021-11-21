@@ -35,3 +35,30 @@ void Activations::UnitTestsActivationsSoftmax::
 }
 
 void Activations::UnitTestsActivationsSoftmax::
+    softmaxActivationBackwardPassTest() {
+  std::cout << "Backward test:" << std::endl;
+
+  Activations::Softmax softmaxActivation;
+
+  Eigen::MatrixXf inputForward{
+      {0.f, 1.f, 0.f},
+      {2.f, 0.f, 1.f},
+      {0.f, 3.f, 3.f},
+  };
+
+  Eigen::MatrixXf out;
+  softmaxActivation.forward(out, inputForward);
+
+  Eigen::MatrixXf inputBackward{
+      {0.f, 1.f, 0.f},
+      {2.f, 0.f, 1.f},
+      {0.f, 3.f, 3.f},
+  };
+
+  Eigen::MatrixXf targetBackward{
+      {0.f, 0.244206f, 0.f},
+      {0.445391f, 0.f, 0.184836f},
+      {0.f, 0.749557f, 0.749557f},
+  };
+
+  softmaxActivation.backward(out, inputBackward);
