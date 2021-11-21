@@ -62,3 +62,13 @@ void Activations::UnitTestsActivationsSoftmax::
   };
 
   softmaxActivation.backward(out, inputBackward);
+
+  if (!targetBackward.isApprox(out)) {
+    std::cout << "Result KO" << std::endl;
+    std::cout << "Expect: " << targetBackward << std::endl;
+    std::cout << "Got: " << out << std::endl;
+    return;
+  }
+
+  std::cout << "OK" << std::endl;
+}
