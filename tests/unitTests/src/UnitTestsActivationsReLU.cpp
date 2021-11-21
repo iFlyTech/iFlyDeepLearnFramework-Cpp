@@ -73,4 +73,5 @@ void Activations::UnitTestsActivationsReLU::reluActivationBackwardPassTest() {
     return;
   }
 
-  std
+  std::cout << "OK" << std::endl;
+}
