@@ -31,3 +31,33 @@ void Layers::UnitTestsLayersLinear::linearLayerForwardPassTest() {
 
   Eigen::MatrixXf out;
   linearLayer.forward(out, x);
+
+  if (out.rows() != x.rows()) {
+    std::cout << "Output rows number KO" << std::endl;
+    std::cout << "Expect: " << x.rows() << std::endl;
+    std::cout << "Got: " << out.rows() << std::endl;
+    return;
+  }
+
+  if (out.cols() != outputFeaturesNumber) {
+    std::cout << "Output cols number KO" << std::endl;
+    std::cout << "Expect: " << outputFeaturesNumber << std::endl;
+    std::cout << "Got: " << out.cols() << std::endl;
+    return;
+  }
+
+  if (!target.isApprox(out)) {
+    std::cout << "Result KO" << std::endl;
+    std::cout << "Expect: " << target << std::endl;
+    std::cout << "Got: " << out << std::endl;
+    return;
+  }
+
+  std::cout << "OK" << std::endl;
+}
+
+void Layers::UnitTestsLayersLinear::linearLayerBackwardPassTest() {
+  std::cout << "Backward test:" << std::endl;
+
+  int inputFeaturesNumber = 2, outputFeaturesNumber = 4;
+  Layers::Linear linearLayer(inputFeaturesNumber, outputFeaturesNumber);
