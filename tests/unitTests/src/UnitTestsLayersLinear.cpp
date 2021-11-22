@@ -61,3 +61,40 @@ void Layers::UnitTestsLayersLinear::linearLayerBackwardPassTest() {
 
   int inputFeaturesNumber = 2, outputFeaturesNumber = 4;
   Layers::Linear linearLayer(inputFeaturesNumber, outputFeaturesNumber);
+
+  Eigen::MatrixXf weights{
+      {0.5f, 0.1f, -0.5f, 0.1f},
+      {0.09f, -0.5f, 0.1f, 0.09f},
+  };
+  Eigen::MatrixXf bias{{-0.2f, 1.f, 0.f, -0.5f}};
+
+  Eigen::MatrixXf forwardInput{
+      {-9.f, -5.f},
+      {1.f, -3.f},
+      {-2.f, 7.f},
+  };
+
+  linearLayer.setWeightsAndBias(weights, bias);
+
+  Eigen::MatrixXf out;
+  linearLayer.forward(out, forwardInput);
+
+  Eigen::MatrixXf backwardInput{
+      {0.f, -2.f, 1.f, 0.f},
+      {1.f, 0.5f, 0.f, 3.f},
+      {-1.f, 0.f, 0.f, 4.f},
+  };
+
+  Eigen::MatrixXf backwardTarget{
+      {-0.24f, 1.32f},
+      {0.8775f, -0.4025f},
+      {0.13f, -0.59},
+  };
+
+  linearLayer.backward(out, backwardInput);
+  if (!backwardTarget.isApprox(out)) {
+    std::cout << "Result KO" << std::endl;
+    std::cout << "Expect: " << backwardTarget << std::endl;
+    std::cout << "Got: " << out << std::endl;
+    return;
+  }
