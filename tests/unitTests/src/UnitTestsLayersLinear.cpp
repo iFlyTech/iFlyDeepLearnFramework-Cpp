@@ -98,3 +98,28 @@ void Layers::UnitTestsLayersLinear::linearLayerBackwardPassTest() {
     std::cout << "Got: " << out << std::endl;
     return;
   }
+
+  Eigen::MatrixXf updatedWeights = linearLayer.getWeights();
+  Eigen::MatrixXf updatedWeightsTarget{
+      {0.47f, -0.085f, -0.41f, 0.15f},
+      {0.19f, -0.585f, 0.15f, -0.1f},
+  };
+  if (!updatedWeightsTarget.isApprox(updatedWeights)) {
+    std::cout << "Updated weights KO" << std::endl;
+    std::cout << "Expect: " << updatedWeightsTarget << std::endl;
+    std::cout << "Got: " << updatedWeights << std::endl;
+    return;
+  }
+
+  Eigen::MatrixXf updatedBias = linearLayer.getBias();
+  Eigen::MatrixXf updatedBiasTarget{
+      {-0.2f, 1.005f, -0.00333333f, -0.523333f},
+  };
+  if (!updatedBiasTarget.isApprox(updatedBias)) {
+    std::cout << "Updated bias KO" << std::endl;
+    std::cout << "Expect: " << updatedBiasTarget << std::endl;
+    std::cout << "Got: " << updatedBias << std::endl;
+    return;
+  }
+  std::cout << "OK" << std::endl;
+}
