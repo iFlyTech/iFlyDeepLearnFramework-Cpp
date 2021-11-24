@@ -1,3 +1,3 @@
 #include "UnitTestsLossesMSE.hpp"
 
-us
+using namespace DeepLearningFram
