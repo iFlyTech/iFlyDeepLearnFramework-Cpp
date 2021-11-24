@@ -1,3 +1,5 @@
 #include "UnitTestsLossesMSE.hpp"
 
-using namespace DeepLearningFram
+using namespace DeepLearningFramework;
+
+void Losses::UnitT
