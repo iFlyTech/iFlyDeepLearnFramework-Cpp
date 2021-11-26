@@ -3,4 +3,6 @@
 using namespace DeepLearningFramework;
 
 void Losses::UnitTestsLossesMSE::mseLossForwardPassTest() {
-  std::cout << "F
+  std::cout << "Forward test:" << std::endl;
+
+  Lo
