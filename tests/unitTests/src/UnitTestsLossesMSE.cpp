@@ -2,4 +2,4 @@
 
 using namespace DeepLearningFramework;
 
-void Losses::UnitT
+void Losses::UnitTestsLossesMSE::mseLossForw
