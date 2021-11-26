@@ -2,4 +2,5 @@
 
 using namespace DeepLearningFramework;
 
-void Losses::UnitTestsLossesMSE::mseLossForw
+void Losses::UnitTestsLossesMSE::mseLossForwardPassTest() {
+  std::cout << "F
