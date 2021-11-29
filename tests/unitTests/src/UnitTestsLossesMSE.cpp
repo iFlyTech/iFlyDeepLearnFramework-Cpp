@@ -7,4 +7,7 @@ void Losses::UnitTestsLossesMSE::mseLossForwardPassTest() {
 
   Losses::MSE mseLoss;
 
-  Eigen::MatrixXf
+  Eigen::MatrixXf y{
+      {1.f, 0.f},
+      {1.f, 0.f},
+      {0
