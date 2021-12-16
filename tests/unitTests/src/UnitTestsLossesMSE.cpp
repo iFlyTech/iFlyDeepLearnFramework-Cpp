@@ -19,4 +19,7 @@ void Losses::UnitTestsLossesMSE::mseLossForwardPassTest() {
       {0.9f, 0.1f},
   };
 
-  float t
+  float target = 1.20667f;
+
+  float out;
+  
