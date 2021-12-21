@@ -22,4 +22,6 @@ void Losses::UnitTestsLossesMSE::mseLossForwardPassTest() {
   float target = 1.20667f;
 
   float out;
-  
+  mseLoss.forward(out, yPred, y);
+
+  if (
