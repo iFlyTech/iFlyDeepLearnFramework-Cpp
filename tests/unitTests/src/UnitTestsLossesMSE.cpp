@@ -24,4 +24,4 @@ void Losses::UnitTestsLossesMSE::mseLossForwardPassTest() {
   float out;
   mseLoss.forward(out, yPred, y);
 
-  if (
+  if (target > out + 0.0001f || target < out - 0.0001f
