@@ -25,4 +25,5 @@ void Losses::UnitTestsLossesMSE::mseLossForwardPassTest() {
   mseLoss.forward(out, yPred, y);
 
   if (target > out + 0.0001f || target < out - 0.0001f) {
-    std::cout << "Loss value KO
+    std::cout << "Loss value KO" << std::endl;
+    std::cout <<
