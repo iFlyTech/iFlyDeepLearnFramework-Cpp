@@ -31,4 +31,7 @@ void Losses::UnitTestsLossesMSE::mseLossForwardPassTest() {
     return;
   }
 
-  std::cout << "OK" << std::
+  std::cout << "OK" << std::endl;
+}
+
+void Losses::UnitTestsLossesMSE::mseLo
