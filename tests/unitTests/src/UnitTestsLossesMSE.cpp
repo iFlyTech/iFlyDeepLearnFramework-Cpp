@@ -31,4 +31,4 @@ void Losses::UnitTestsLossesMSE::mseLossForwardPassTest() {
     return;
   }
 
-  st
+  std::cout << "OK" << std::
