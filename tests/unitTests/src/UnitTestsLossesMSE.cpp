@@ -35,4 +35,8 @@ void Losses::UnitTestsLossesMSE::mseLossForwardPassTest() {
 }
 
 void Losses::UnitTestsLossesMSE::mseLossBackwardPassTest() {
-  std::cout << "Backward test:" << std::
+  std::cout << "Backward test:" << std::endl;
+
+  Losses::MSE mseLoss;
+
+  Eigen:
