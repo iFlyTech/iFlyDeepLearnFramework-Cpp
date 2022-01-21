@@ -45,4 +45,6 @@ void Losses::UnitTestsLossesMSE::mseLossBackwardPassTest() {
       {0.f, 1.f},
   };
 
-  Eigen::MatrixXf yPr
+  Eigen::MatrixXf yPred{
+      {0.4f, 0.6f},
+      {0.2f
