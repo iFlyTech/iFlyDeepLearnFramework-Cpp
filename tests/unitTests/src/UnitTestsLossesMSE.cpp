@@ -53,4 +53,8 @@ void Losses::UnitTestsLossesMSE::mseLossBackwardPassTest() {
 
   Eigen::MatrixXf target{
       {0.4f, -0.4f},
-      {0.533333f, 
+      {0.533333f, -0.533333f},
+      {-0.6f, 0.6f},
+  };
+
+ 
