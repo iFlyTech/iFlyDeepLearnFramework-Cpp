@@ -57,4 +57,5 @@ void Losses::UnitTestsLossesMSE::mseLossBackwardPassTest() {
       {-0.6f, 0.6f},
   };
 
- 
+  Eigen::MatrixXf out;
+  mseLoss.back
