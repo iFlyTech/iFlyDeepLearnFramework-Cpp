@@ -58,4 +58,6 @@ void Losses::UnitTestsLossesMSE::mseLossBackwardPassTest() {
   };
 
   Eigen::MatrixXf out;
-  mseLoss.back
+  mseLoss.backward(out, yPred, y);
+
+  if (!targe
