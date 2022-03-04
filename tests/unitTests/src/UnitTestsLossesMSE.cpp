@@ -60,4 +60,5 @@ void Losses::UnitTestsLossesMSE::mseLossBackwardPassTest() {
   Eigen::MatrixXf out;
   mseLoss.backward(out, yPred, y);
 
-  if (!targe
+  if (!target.isApprox(out)) {
+    std::cout << "Deri
