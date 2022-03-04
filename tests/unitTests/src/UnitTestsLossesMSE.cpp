@@ -61,4 +61,5 @@ void Losses::UnitTestsLossesMSE::mseLossBackwardPassTest() {
   mseLoss.backward(out, yPred, y);
 
   if (!target.isApprox(out)) {
-    std::cout << "Deri
+    std::cout << "Derivative KO" << std::endl;
+    std::cout 
