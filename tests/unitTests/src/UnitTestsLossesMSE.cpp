@@ -64,3 +64,7 @@ void Losses::UnitTestsLossesMSE::mseLossBackwardPassTest() {
     std::cout << "Derivative KO" << std::endl;
     std::cout << "Expect: " << target << std::endl;
     std::cout << "Got: " << out << std::endl;
+    return;
+  }
+
+  std::cout << "OK"
