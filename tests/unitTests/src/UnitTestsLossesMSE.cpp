@@ -67,4 +67,5 @@ void Losses::UnitTestsLossesMSE::mseLossBackwardPassTest() {
     return;
   }
 
-  std::cout << "OK"
+  std::cout << "OK" << std::endl;
+}
