@@ -1,1 +1,3 @@
-# iFlyDeepLearnF
+# iFlyDeepLearnFramework-Cpp
+
+Full explanation 
