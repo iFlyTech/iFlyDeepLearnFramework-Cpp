@@ -4,4 +4,4 @@ Full explanation of the projects can be found in this [article](https://foundati
 
 ## Description
 
-The aim is to demonstrate how a project in C++ is developed, speci
+The aim is to demonstrate how a project in C++ is developed, specifically a Deep Learning framework,
