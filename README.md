@@ -4,4 +4,4 @@ Full explanation of the projects can be found in this [article](https://foundati
 
 ## Description
 
-The aim is to demonstrate how a project in C++ is developed, specifically a Deep Learning framework, and how various C++ concepts are used. It includes aspects like abs
+The aim is to demonstrate how a project in C++ is developed, specifically a Deep Learning framework, and how various C++ concepts are used. It includes aspects like abstract classes/interfaces, inheri
