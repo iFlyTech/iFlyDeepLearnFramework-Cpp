@@ -6,4 +6,4 @@ Full explanation of the projects can be found in this [article](https://foundati
 
 The aim is to demonstrate how a project in C++ is developed, specifically a Deep Learning framework, and how various C++ concepts are used. It includes aspects like abstract classes/interfaces, inheritance, memory management, pointers, constexpress, templates, std containers, eigen matrix, static functions, makefile, etc.
 
-Th
+The developed framework will implem
