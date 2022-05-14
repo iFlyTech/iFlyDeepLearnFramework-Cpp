@@ -13,4 +13,4 @@ The developed framework will implement MSE loss, linear layer, ReLU and softmax 
 ### Downloading the Source Code
 
 ```
-git c
+git clone https://github.com/iFly
