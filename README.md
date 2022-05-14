@@ -8,4 +8,9 @@ The aim is to demonstrate how a project in C++ is developed, specifically a Deep
 
 The developed framework will implement MSE loss, linear layer, ReLU and softmax activation functions, a feature/label generator and a mini-batch learning function.
 
-## Running the
+## Running the Demo
+
+### Downloading the Source Code
+
+```
+git c
