@@ -13,4 +13,5 @@ The developed framework will implement MSE loss, linear layer, ReLU and softmax 
 ### Downloading the Source Code
 
 ```
-git clone https://github.com/iFly
+git clone https://github.com/iFlyTech/iFlyDeepLearnFramework-Cpp.git
+``
