@@ -16,4 +16,4 @@ The developed framework will implement MSE loss, linear layer, ReLU and softmax 
 git clone https://github.com/iFlyTech/iFlyDeepLearnFramework-Cpp.git
 ```
 Download Eigen code from https://gitlab.com/libeigen/eigen/-/releases/3.4.0
-After extraction, copy the folder Eigen/ contained in extracted folder (eigen-version/
+After extraction, copy the folder Eigen/ contained in extracted folder (eigen-version/Eigen) to iFlyDeepLearnFramework-C
