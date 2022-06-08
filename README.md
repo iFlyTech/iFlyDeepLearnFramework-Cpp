@@ -24,4 +24,7 @@ The file tests/main.cpp contains an example of a neural network's implementation
 
 ```
 cd iFlyDeepLearnFramework-Cpp
-mkdi
+mkdir bin
+cd bin
+cmake ..
+make
