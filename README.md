@@ -21,3 +21,7 @@ After extraction, copy the folder Eigen/ contained in extracted folder (eigen-ve
 ### Running the Training Implemented in tests/main.cpp
 
 The file tests/main.cpp contains an example of a neural network's implementation utilizing the developed library. It demonstrates classification of 2D data points into 2 classes (inside / outside a circle).
+
+```
+cd iFlyDeepLearnFramework-Cpp
+mkdi
